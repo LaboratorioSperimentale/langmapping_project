@@ -1,0 +1,9 @@
+[submodule "wals"]
+	path = wals
+	url = https://github.com/cldf-datasets/wals.git
+[submodule "glottolog-cldf"]
+	path = glottolog-cldf
+	url = https://github.com/glottolog/glottolog-cldf.git
+[submodule "grambank"]
+	path = grambank
+	url = https://github.com/grambank/grambank.git
