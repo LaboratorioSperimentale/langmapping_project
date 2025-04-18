@@ -18,7 +18,7 @@ m = lingtypology.LingMap(languages)
 m.add_features(features, control=True)
 m.add_features(native_speakers, numeric=True, colors=lingtypology.gradient(100, 'white', 'red'))
 m.create_map()
-m.save('map.html')
+m.save('mappa.html')
 #m.save_static(fname="mappa.png")
 
 # COLOR GRADIENT
