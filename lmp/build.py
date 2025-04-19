@@ -17,9 +17,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 			wals_dirpath, grambank_dirpath,
 			output_dir):
 
-	parameters = {"WALS": collections.defaultdict(lambda: set()),
-				"GRAMBANK": collections.defaultdict(lambda: set())}
-
+	parameters = collections.defaultdict(int)
 	#MAP
 	reader = csv.DictReader(open(iso_glotto_fname, encoding="utf-8"), delimiter=",", quotechar='"')
 	glottocodes = []
@@ -62,7 +60,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		# wals_languages[language][f"PARAM:{wals_parameters[parameter]['Name']}"] = wals_codes[f"{parameter}-{value}"]["Description"]
 		wals_tosave[language][f"W:{wals_parameters[parameter]['Name']}"] = wals_codes[f"{parameter}-{value}"]["Description"]
 
-		parameters["WALS"][f"{wals_parameters[parameter]['Name']}"].add(wals_codes[f"{parameter}-{value}"]["Description"])
+		parameters[f"W:{wals_parameters[parameter]['Name']}"]+=1
 
 	glotto_wals = {}
 	noglotto_wals = []
@@ -80,26 +78,45 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 	logging.info(f"Number of languages with more than one isocode per glottocode: {len([x for x in glotto_wals if len(glotto_wals[x]) > 1])}")
 
 
-	# TODO: if all missing merge, otherwise signal differences.
 	with open(output_dir.joinpath("prova_glottowals.txt"), "w") as fout:
-		for language in glotto_wals:
+		for language_id, languages in glotto_wals.items():
+			if len(languages) > 1:
+				tmp = [(subl["ID"], len(subl)-2) for subl in languages]
+				tmp = [f"{x[0]} ({x[1]} params, {1 if x[0] in ethnologue else 0}-eth)" for x in tmp]
 
-			if len(glotto_wals[language]) > 1:
-				tmp = [(subl["ID"], len(subl)-2) for subl in glotto_wals[language]]
-				print(f"{language}: {tmp}", file=fout)
+				print(f"GLOTTOCODE {language_id} has isocodes {', '.join(tmp)}", file=fout)
 				logging.warning(f"Glottocode {language} has more than one WALS language:")
-				for sublanguage in glotto_wals[language]:
-					print(f"\t{sublanguage['ID']}", file=fout)
-					logging.warning(f"\t{sublanguage['ID']} with {len(sublanguage)} values")
-					for parameter in sublanguage:
+
+				for language in languages:
+
+					status = "missing"
+					if language['ID'] in ethnologue:
+						status = ethnologue[language['ID']]["Written"]
+
+					print(f"\t{language['ID']} - written status: {status}", file=fout)
+					# logging.warning(f"\t{language['ID']} with {len(language)} values")
+
+					for parameter in language:
+
 						if not parameter in ["ID", "Glottocode"]:
-							# print(f"\t\t{parameter}: {sublanguage[parameter]}", file=fout)
-							print(f"\t\t{parameter}", file=fout)
-							for sublanguage2 in glotto_wals[language]:
-								if parameter not in sublanguage2:
-									print(f"\t\t\tMISSING FROM: {sublanguage2['ID']}", file=fout)
-								elif sublanguage[parameter] != sublanguage2[parameter]:
-									print(f"\t\t\tDIFFERENT VALUE: {sublanguage2['ID']}", file=fout)
+
+							missing = []
+							different = []
+
+							for language2 in languages:
+								if not parameter in language2:
+									missing.append(language2["ID"])
+								elif language[parameter] != language2[parameter]:
+									different.append((language2["ID"], language2[parameter]))
+
+							if len(missing) > 0 or len(different) > 0:
+								print(f"\t\t{parameter} - [VALUE: {language[parameter]}]", file=fout)
+								if len(missing) > 0:
+									print(f"\t\t\tMISSING FROM: {' '.join(missing)}", file=fout)
+								elif len(different) > 0:
+									strs = [f"{x[0]}: [{x[1]}]" for x in different]
+									print(f"\t\t\tDIFFERENT VALUES: {' '.join(strs)}", file=fout)
+				print("\n", file=fout)
 
 
 	#GRAMBANK
@@ -125,7 +142,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 			grambank_tosave[language][f"G:{grambank_parameters[parameter]['Name']}"] = grambank_codes[f"{parameter}-{value}"]["Description"]
 		# parameters.add(f"GR-PARAM:{grambank_parameters[parameter]['Name']}")
 		if not value == "?":
-			parameters["GRAMBANK"][f"{grambank_parameters[parameter]['Name']}"].add(grambank_codes[f"{parameter}-{value}"]["Description"])
+			parameters[f"G:{grambank_parameters[parameter]['Name']}"]+=1
 
 
 
@@ -172,6 +189,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 				complete_lang["written_status"] = ethnologue[isocode]["Written"]
 				del ethnologue[isocode]
 			else:
+				complete_lang["written_status"] = "missing"
 				logging.warning(f"ISO code {isocode} not found in ethnologue, {len(complete_lang)} parameters so far")
 				# input()
 
@@ -196,95 +214,112 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 			# 			del wals_languages[wals_language["ID"]]
 			# 		del glotto_wals[glotto]
 			if found_params:
+				complete_lang["Glottocode"] = glottocode
 				complete[glottocode] = complete_lang
+			else:
+				logger.info("No parameters found for glottocode %s", glottocode)
+
 	logging.info(f"After first mapping, {len(complete)} languages mapped.")
 	logging.info(f"There remain: {len(ethnologue)} ethnologue items, {len(glotto_wals)+len(noglotto_wals)} WALS items, {len(grambank_tosave)} Grambank items to be mapped")
-	input()
+	# input()
 
+	with open(output_dir.joinpath("mapping.csv"), "w", encoding="utf-8") as fout:
+		writer = csv.DictWriter(fout,
+							fieldnames=["Glottocode", "iso639-3","written_status", "coverage", "valued_params"]+list(parameters.keys()),
+							delimiter="\t",
+							extrasaction="ignore",
+							quoting=csv.QUOTE_MINIMAL,
+							restval="_")
+		writer.writeheader()
+		for glottocode, language in complete.items():
+			coverage = len([x for x in language if x.startswith("W:") or x.startswith("G:")])
+			language["coverage"] = f"{coverage/len(parameters):.3f}"
+			language["valued_params"] = coverage
+			writer.writerow(language)
 	# logging.info("Finding WALS best match based on ISO_code")
 
 	# glotto wals 1
-	glotto_to_delete = []
-	for wals_code, wals_langs in glotto_wals.items():
-		found = False
-		for lang in wals_langs:
-			if "ISO639P3code" in lang:
-				ID = lang["ID"]
-				for compl_id, compl_lang in complete.items():
-					if "MAP" in compl_lang and "iso639-3" in compl_lang["MAP"]:
-						iso_code = compl_lang["MAP"]["iso639-3"]
-						if iso_code == lang["ISO639P3code"]:
-							found = True
-							if not "WALS" in compl_lang:
-								compl_lang["WALS"] = []
-							compl_lang["WALS"].append(lang)
-		if found:
-			glotto_to_delete.append(wals_code)
+	# glotto_to_delete = []
+	# for wals_code, wals_langs in glotto_wals.items():
+	# 	found = False
+	# 	for lang in wals_langs:
+	# 		if "ISO639P3code" in lang:
+	# 			ID = lang["ID"]
+	# 			for compl_id, compl_lang in complete.items():
+	# 				if "MAP" in compl_lang and "iso639-3" in compl_lang["MAP"]:
+	# 					iso_code = compl_lang["MAP"]["iso639-3"]
+	# 					if iso_code == lang["ISO639P3code"]:
+	# 						found = True
+	# 						if not "WALS" in compl_lang:
+	# 							compl_lang["WALS"] = []
+	# 						compl_lang["WALS"].append(lang)
+	# 	if found:
+	# 		glotto_to_delete.append(wals_code)
 
-	for code in glotto_to_delete:
-		for wals_language in glotto_wals[code]:
-			del wals_languages[wals_language["ID"]]
-		del glotto_wals[code]
+	# for code in glotto_to_delete:
+	# 	for wals_language in glotto_wals[code]:
+	# 		del wals_languages[wals_language["ID"]]
+	# 	del glotto_wals[code]
 
-	to_remove = set()
-	for i, wals_lang in enumerate(noglotto_wals):
-		iso_codes = wals_lang["ISO_codes"].split()
+	# to_remove = set()
+	# for i, wals_lang in enumerate(noglotto_wals):
+	# 	iso_codes = wals_lang["ISO_codes"].split()
 
-		found = False
-		for element_id, element in complete.items():
-			if "iso639-3" in element["MAP"]:
-				if any(x==element["MAP"]["iso639-3"] for x in iso_codes):
-					if not "WALS" in element:
-						element["WALS"] = []
-					element["WALS"].append(wals_lang)
-					to_remove.add(i)
-					found = True
-		if found:
-			del wals_languages[wals_lang["ID"]]
+	# 	found = False
+	# 	for element_id, element in complete.items():
+	# 		if "iso639-3" in element["MAP"]:
+	# 			if any(x==element["MAP"]["iso639-3"] for x in iso_codes):
+	# 				if not "WALS" in element:
+	# 					element["WALS"] = []
+	# 				element["WALS"].append(wals_lang)
+	# 				to_remove.add(i)
+	# 				found = True
+	# 	if found:
+	# 		del wals_languages[wals_lang["ID"]]
 
-	noglotto_wals = [x for i, x in enumerate(noglotto_wals) if not i in to_remove]
+	# noglotto_wals = [x for i, x in enumerate(noglotto_wals) if not i in to_remove]
 
 	# logging.info(f"After second mapping, there remain: {len(ethnologue)} ethnologue items, {len(wals_languages)} WALS items, {len(grambank_languages)} Grambank items to be mapped")
 
 
-	with open(output_dir.joinpath("notmapped_ethnologue.json"), "w") as fout:
-		json.dump(ethnologue, fout, ensure_ascii=False, indent=4)
+	# with open(output_dir.joinpath("notmapped_ethnologue.json"), "w") as fout:
+	# 	json.dump(ethnologue, fout, ensure_ascii=False, indent=4)
 
-	with open(output_dir.joinpath("notmapped_wals.json"), "w") as fout:
-		json.dump(wals_languages, fout, ensure_ascii=False, indent=4)
+	# with open(output_dir.joinpath("notmapped_wals.json"), "w") as fout:
+	# 	json.dump(wals_languages, fout, ensure_ascii=False, indent=4)
 
-	with open(output_dir.joinpath("notmapped_grambank.json"), "w") as fout:
-		json.dump(grambank_languages, fout, ensure_ascii=False, indent=4)
+	# with open(output_dir.joinpath("notmapped_grambank.json"), "w") as fout:
+	# 	json.dump(grambank_languages, fout, ensure_ascii=False, indent=4)
 
-	with open(output_dir.joinpath("parameters.tsv"), "w") as fout:
-		for source, d in parameters.items():
-			for param, values in d.items():
-				print(f"{source}\t{param}\t{len(values)}\t{' | '.join(values)}", file=fout)
+	# with open(output_dir.joinpath("parameters.tsv"), "w") as fout:
+	# 	for source, d in parameters.items():
+	# 		for param, values in d.items():
+	# 			print(f"{source}\t{param}\t{len(values)}\t{' | '.join(values)}", file=fout)
 
-	discarded = {}
-	considered = {}
+	# discarded = {}
+	# considered = {}
 
-	for unique_id, language in complete.items():
-		if "ETHNOLOGUE" in language and ("WALS" in language or "GRAMBANK" in language):
-			considered[language["ETHNOLOGUE"]["ISO 639"]] = language
-		else:
-			discarded[str(unique_id)] = language
+	# for unique_id, language in complete.items():
+	# 	if "ETHNOLOGUE" in language and ("WALS" in language or "GRAMBANK" in language):
+	# 		considered[language["ETHNOLOGUE"]["ISO 639"]] = language
+	# 	else:
+	# 		discarded[str(unique_id)] = language
 
 	# logging.info(f"End of computation, {len(considered)} languages mapped, {len(discarded)} languages discarded")
 
-	with open(output_dir.joinpath("language_info.txt"), "w") as fout:
-		for language_code in considered:
-			wals = 0
-			if "WALS" in considered[language_code]:
-				wals = len(considered[language_code]["WALS"])
-			print(f"{language_code}, {'GRAMBANK' in considered[language_code]}, {'WALS' in considered[language_code]}, {wals}", file=fout)
+	# with open(output_dir.joinpath("language_info.txt"), "w") as fout:
+	# 	for language_code in considered:
+	# 		wals = 0
+	# 		if "WALS" in considered[language_code]:
+	# 			wals = len(considered[language_code]["WALS"])
+	# 		print(f"{language_code}, {'GRAMBANK' in considered[language_code]}, {'WALS' in considered[language_code]}, {wals}", file=fout)
 
 
-	with open(output_dir.joinpath("mapped_languages.json"), "w") as fout:
-		json.dump(considered, fout, ensure_ascii=False, indent=4)
+	# with open(output_dir.joinpath("mapped_languages.json"), "w") as fout:
+	# 	json.dump(considered, fout, ensure_ascii=False, indent=4)
 
-	with open(output_dir.joinpath("discarded_languages.json"), "w") as fout:
-		json.dump(discarded, fout, ensure_ascii=False, indent=4)
+	# with open(output_dir.joinpath("discarded_languages.json"), "w") as fout:
+	# 	json.dump(discarded, fout, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
