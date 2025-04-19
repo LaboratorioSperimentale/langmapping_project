@@ -1,0 +1,1112 @@
+GLOTTOCODE chad1249 has isocodes shu, shu
+shared parameters
+ID	abb	arn
+abb	3	0
+arn	0	2
+different values parameters
+ID	abb	arn
+abb	0	1
+arn	1	0
+
+
+GLOTTOCODE nort3139 has isocodes apc, apc, apc, apc
+shared parameters
+ID	abe	anl	arl	asy
+abe	5	0	3	4
+anl	0	4	0	0
+arl	3	0	9	3
+asy	4	0	3	53
+different values parameters
+ID	abe	anl	arl	asy
+abe	0	1	1	1
+anl	1	0	1	1
+arl	1	1	0	1
+asy	1	1	1	0
+
+
+GLOTTOCODE adyg1241 has isocodes ady, ady, ady
+shared parameters
+ID	adt	ady	ash
+adt	3	0	0
+ady	0	18	0
+ash	0	0	2
+different values parameters
+ID	adt	ady	ash
+adt	0	1	1
+ady	1	0	1
+ash	1	1	0
+
+
+GLOTTOCODE aleu1260 has isocodes ale, ale
+shared parameters
+ID	aea	ale
+aea	15	0
+ale	0	26
+different values parameters
+ID	aea	ale
+aea	0	1
+ale	1	0
+
+
+GLOTTOCODE swis1247 has isocodes gsw, gsw, gsw, gsw, gsw, gsw
+shared parameters
+ID	alt	gbe	gos	gpz	gtg	gzu
+alt	2	0	0	0	0	0
+gbe	0	2	1	1	1	1
+gos	0	1	2	1	1	1
+gpz	0	1	1	2	1	1
+gtg	0	1	1	1	2	1
+gzu	0	1	1	1	1	2
+different values parameters
+ID	alt	gbe	gos	gpz	gtg	gzu
+alt	0	1	1	1	1	1
+gbe	1	0	1	1	1	1
+gos	1	1	0	1	1	1
+gpz	1	1	1	0	1	1
+gtg	1	1	1	1	0	1
+gzu	1	1	1	1	1	0
+
+
+GLOTTOCODE amdo1237 has isocodes adx, adx
+shared parameters
+ID	amd	amt
+amd	3	0
+amt	0	20
+different values parameters
+ID	amd	amt
+amd	0	1
+amt	1	0
+
+
+GLOTTOCODE sout3123 has isocodes ajp, ajp
+shared parameters
+ID	apa	arv
+apa	7	3
+arv	3	5
+different values parameters
+ID	apa	arv
+apa	0	2
+arv	2	0
+
+
+GLOTTOCODE apuc1241 has isocodes apq, apq
+shared parameters
+ID	apk	gan
+apk	2	0
+gan	0	25
+different values parameters
+ID	apk	gan
+apk	0	1
+gan	1	0
+
+
+GLOTTOCODE gulf1241 has isocodes afb, afb
+shared parameters
+ID	arg	arj
+arg	63	30
+arj	30	32
+different values parameters
+ID	arg	arj
+arg	0	2
+arj	2	0
+
+
+GLOTTOCODE nucl1235 has isocodes hye, hye
+shared parameters
+ID	arm	arz
+arm	130	0
+arz	0	2
+different values parameters
+ID	arm	arz
+arm	0	2
+arz	2	0
+
+
+GLOTTOCODE wadj1254 has isocodes wdj, wdj
+shared parameters
+ID	bac	pun
+bac	20	7
+pun	7	21
+different values parameters
+ID	bac	pun
+bac	0	9
+pun	9	0
+
+
+GLOTTOCODE bari1284 has isocodes bfa, bfa
+shared parameters
+ID	bar	kuk
+bar	54	7
+kuk	7	12
+different values parameters
+ID	bar	kuk
+bar	0	1
+kuk	1	0
+
+
+GLOTTOCODE band1339 has isocodes bdy, bdy, bdy, bdy
+shared parameters
+ID	bca	bnj	bwa	byu
+bca	3	1	1	1
+bnj	1	30	3	3
+bwa	1	3	8	3
+byu	1	3	3	17
+different values parameters
+ID	bca	bnj	bwa	byu
+bca	0	2	2	2
+bnj	2	0	1	1
+bwa	2	1	0	1
+byu	2	1	1	0
+
+
+GLOTTOCODE mund1320 has isocodes unr, unr
+shared parameters
+ID	bhu	mun
+bhu	10	8
+mun	8	115
+different values parameters
+ID	bhu	mun
+bhu	0	2
+mun	2	0
+
+
+GLOTTOCODE orok1266 has isocodes bdu, bdu
+shared parameters
+ID	bkn	ldo
+bkn	4	2
+ldo	2	27
+different values parameters
+ID	bkn	ldo
+bkn	0	1
+ldo	1	0
+
+
+GLOTTOCODE luba1249 has isocodes lua, lua
+shared parameters
+ID	blu	cil
+blu	7	0
+cil	0	19
+different values parameters
+ID	blu	cil
+blu	0	1
+cil	1	0
+
+
+GLOTTOCODE basq1248 has isocodes eus, eus, eus, eus, eus, eus, eus, eus, eus, eus, eus
+shared parameters
+ID	bqb	bqg	bqh	bqi	bql	bqn	bqo	bqr	bqs	bqz	bsq
+bqb	5	1	1	0	3	3	4	3	2	1	0
+bqg	1	5	2	2	1	1	1	1	0	4	0
+bqh	1	2	5	1	1	1	1	1	0	2	0
+bqi	0	2	1	5	0	0	0	0	1	2	0
+bql	3	1	1	0	5	4	3	4	2	1	0
+bqn	3	1	1	0	4	5	3	4	2	1	0
+bqo	4	1	1	0	3	3	5	3	2	1	0
+bqr	3	1	1	0	4	4	3	5	2	1	0
+bqs	2	0	0	1	2	2	2	2	5	0	0
+bqz	1	4	2	2	1	1	1	1	0	5	0
+bsq	0	0	0	0	0	0	0	0	0	0	150
+different values parameters
+ID	bqb	bqg	bqh	bqi	bql	bqn	bqo	bqr	bqs	bqz	bsq
+bqb	0	4	4	5	2	2	1	2	3	4	1
+bqg	4	0	3	3	4	4	4	4	5	1	1
+bqh	4	3	0	4	4	4	4	4	5	3	1
+bqi	5	3	4	0	5	5	5	5	4	3	1
+bql	2	4	4	5	0	1	2	1	3	4	1
+bqn	2	4	4	5	1	0	2	1	3	4	1
+bqo	1	4	4	5	2	2	0	2	3	4	1
+bqr	2	4	4	5	1	1	2	0	3	4	1
+bqs	3	5	5	4	3	3	3	3	0	5	1
+bqz	4	1	3	3	4	4	4	4	5	0	1
+bsq	1	1	1	1	1	1	1	1	1	1	0
+
+
+GLOTTOCODE tari1263 has isocodes rif, rif
+shared parameters
+ID	brf	bse
+brf	39	4
+bse	4	7
+different values parameters
+ID	brf	bse
+brf	0	1
+bse	1	0
+
+
+GLOTTOCODE suri1267 has isocodes suq, suq
+shared parameters
+ID	cai	trm
+cai	42	10
+trm	10	31
+different values parameters
+ID	cai	trm
+cai	0	13
+trm	13	0
+
+
+GLOTTOCODE seba1251 has isocodes sgw, sgw
+shared parameters
+ID	chh	muh
+chh	41	1
+muh	1	2
+different values parameters
+ID	chh	muh
+chh	0	1
+muh	1	0
+
+
+GLOTTOCODE chal1275 has isocodes cld, cld
+shared parameters
+ID	cld	naa
+cld	18	0
+naa	0	2
+different values parameters
+ID	cld	naa
+cld	0	1
+naa	1	0
+
+
+GLOTTOCODE chip1241 has isocodes ciw, ciw
+shared parameters
+ID	cpw	ojm
+cpw	2	1
+ojm	1	6
+different values parameters
+ID	cpw	ojm
+cpw	0	1
+ojm	1	0
+
+
+GLOTTOCODE cari1279 has isocodes cbd, cbd, cbd, cbd
+shared parameters
+ID	crj	guq	hia	umu
+crj	6	1	1	1
+guq	1	2	1	1
+hia	1	1	2	1
+umu	1	1	1	2
+different values parameters
+ID	crj	guq	hia	umu
+crj	0	1	1	1
+guq	1	0	1	1
+hia	1	1	0	1
+umu	1	1	1	0
+
+
+GLOTTOCODE cree1270 has isocodes mus, mus
+shared parameters
+ID	crk	smn
+crk	8	0
+smn	0	28
+different values parameters
+ID	crk	smn
+crk	0	1
+smn	1	0
+
+
+GLOTTOCODE west2644 has isocodes ctp, ctp
+shared parameters
+ID	cso	cya
+cso	52	27
+cya	27	35
+different values parameters
+ID	cso	cya
+cso	0	2
+cya	2	0
+
+
+GLOTTOCODE dutc1256 has isocodes nld, nld, nld
+shared parameters
+ID	dbr	dli	dut
+dbr	2	1	1
+dli	1	2	1
+dut	1	1	90
+different values parameters
+ID	dbr	dli	dut
+dbr	0	1	1
+dli	1	0	1
+dut	1	1	0
+
+
+GLOTTOCODE godi1239 has isocodes god, god
+shared parameters
+ID	ddj	gdi
+ddj	15	0
+gdi	0	11
+different values parameters
+ID	ddj	gdi
+ddj	0	1
+gdi	1	0
+
+
+GLOTTOCODE dera1245 has isocodes kbv, kbv
+shared parameters
+ID	der	dlm
+der	25	8
+dlm	8	24
+different values parameters
+ID	der	dlm
+der	0	3
+dlm	3	0
+
+
+GLOTTOCODE kumi1248 has isocodes dih, dih
+shared parameters
+ID	die	tja
+die	77	24
+tja	24	61
+different values parameters
+ID	die	tja
+die	0	15
+tja	15	0
+
+
+GLOTTOCODE even1259 has isocodes evn, evn
+shared parameters
+ID	eve	sol
+eve	150	1
+sol	1	4
+different values parameters
+ID	eve	sol
+eve	0	3
+sol	3	0
+
+
+GLOTTOCODE west2519 has isocodes wyy, wyy
+shared parameters
+ID	fiw	ndr
+fiw	2	0
+ndr	0	23
+different values parameters
+ID	fiw	ndr
+fiw	0	1
+ndr	1	0
+
+
+GLOTTOCODE pula1263 has isocodes fuc, fuc
+shared parameters
+ID	fma	fus
+fma	6	0
+fus	0	3
+different values parameters
+ID	fma	fus
+fma	0	1
+fus	1	0
+
+
+GLOTTOCODE west2354 has isocodes fry, fry
+shared parameters
+ID	fri	frw
+fri	25	0
+frw	0	4
+different values parameters
+ID	fri	frw
+fri	0	1
+frw	1	0
+
+
+GLOTTOCODE bava1246 has isocodes bar, bar, bar
+shared parameters
+ID	gau	gba	gvi
+gau	2	1	0
+gba	1	2	0
+gvi	0	0	2
+different values parameters
+ID	gau	gba	gvi
+gau	0	1	1
+gba	1	0	1
+gvi	1	1	0
+
+
+GLOTTOCODE stan1295 has isocodes deu, deu, deu, deu, deu, deu
+shared parameters
+ID	gbl	ger	gha	gma	gth	gti
+gbl	2	0	1	1	1	0
+ger	0	158	0	0	0	1
+gha	1	0	2	1	1	0
+gma	1	0	1	2	1	0
+gth	1	0	1	1	2	0
+gti	0	1	0	0	0	2
+different values parameters
+ID	gbl	ger	gha	gma	gth	gti
+gbl	0	2	1	1	1	2
+ger	2	0	2	2	2	1
+gha	1	2	0	1	1	2
+gma	1	2	1	0	1	2
+gth	1	2	1	1	0	2
+gti	2	1	2	2	2	0
+
+
+GLOTTOCODE guad1242 has isocodes gcf, gcf
+shared parameters
+ID	gdl	mqc
+gdl	2	0
+mqc	0	2
+different values parameters
+ID	gdl	mqc
+gdl	0	1
+mqc	1	0
+
+
+GLOTTOCODE gami1243 has isocodes kld, kld
+shared parameters
+ID	gml	yuw
+gml	2	0
+yuw	0	46
+different values parameters
+ID	gml	yuw
+gml	0	1
+yuw	1	0
+
+
+GLOTTOCODE kala1399 has isocodes kal, kal
+shared parameters
+ID	grw	gso
+grw	143	2
+gso	2	3
+different values parameters
+ID	grw	gso
+grw	0	1
+gso	1	0
+
+
+GLOTTOCODE hava1248 has isocodes yuf, yuf, yuf
+shared parameters
+ID	hav	hlp	yav
+hav	2	0	0
+hlp	0	37	0
+yav	0	0	9
+different values parameters
+ID	hav	hlp	yav
+hav	0	2	1
+hlp	2	0	1
+yav	1	1	0
+
+
+GLOTTOCODE hebr1245 has isocodes heb, heb
+shared parameters
+ID	hba	heb
+hba	14	0
+heb	0	142
+different values parameters
+ID	hba	heb
+hba	0	1
+heb	1	0
+
+
+GLOTTOCODE halk1245 has isocodes hur, hur, hur
+shared parameters
+ID	hli	hlu	msq
+hli	4	0	0
+hlu	0	43	20
+msq	0	20	24
+different values parameters
+ID	hli	hlu	msq
+hli	0	1	1
+hlu	1	0	2
+msq	1	2	0
+
+
+GLOTTOCODE ital1282 has isocodes ita, ita
+shared parameters
+ID	ifi	ita
+ifi	2	1
+ita	1	82
+different values parameters
+ID	ifi	ita
+ifi	0	1
+ita	1	0
+
+
+GLOTTOCODE east2534 has isocodes ike, ike
+shared parameters
+ID	ins	iql
+ins	5	0
+iql	0	6
+different values parameters
+ID	ins	iql
+ins	0	1
+iql	1	0
+
+
+GLOTTOCODE iris1253 has isocodes gle, gle, gle
+shared parameters
+ID	ird	iri	irm
+ird	14	0	0
+iri	0	107	1
+irm	0	1	4
+different values parameters
+ID	ird	iri	irm
+ird	0	1	1
+iri	1	0	3
+irm	1	3	0
+
+
+GLOTTOCODE krio1252 has isocodes rop, rop
+shared parameters
+ID	kfc	knq
+kfc	6	1
+knq	1	6
+different values parameters
+ID	kfc	knq
+kfc	0	1
+knq	1	0
+
+
+GLOTTOCODE kirg1245 has isocodes kir, kir
+shared parameters
+ID	kfy	kgz
+kfy	2	0
+kgz	0	41
+different values parameters
+ID	kfy	kgz
+kfy	0	2
+kgz	2	0
+
+
+GLOTTOCODE kham1282 has isocodes khg, khg
+shared parameters
+ID	khd	knz
+khd	28	21
+knz	21	25
+different values parameters
+ID	khd	knz
+khd	0	3
+knz	3	0
+
+
+GLOTTOCODE kalm1243 has isocodes xal, xal
+shared parameters
+ID	kiq	oir
+kiq	2	0
+oir	0	14
+different values parameters
+ID	kiq	oir
+kiq	0	1
+oir	1	0
+
+
+GLOTTOCODE shah1254 has isocodes shm, shm
+shared parameters
+ID	klr	tls
+klr	13	12
+tls	12	13
+different values parameters
+ID	klr	tls
+klr	0	1
+tls	1	0
+
+
+GLOTTOCODE shon1251 has isocodes sna, sna
+shared parameters
+ID	krg	shn
+krg	3	0
+shn	0	49
+different values parameters
+ID	krg	shn
+krg	0	1
+shn	1	0
+
+
+GLOTTOCODE kash1274 has isocodes csb, csb
+shared parameters
+ID	ksu	svc
+ksu	2	0
+svc	0	4
+different values parameters
+ID	ksu	svc
+ksu	0	1
+svc	1	0
+
+
+GLOTTOCODE sema1269 has isocodes sdm, sdm
+shared parameters
+ID	kua	smd
+kua	2	1
+smd	1	2
+different values parameters
+ID	kua	smd
+kua	0	1
+smd	1	0
+
+
+GLOTTOCODE mand1415 has isocodes cmn, cmn
+shared parameters
+ID	kug	mnd
+kug	6	4
+mnd	4	154
+different values parameters
+ID	kug	mnd
+kug	0	2
+mnd	2	0
+
+
+GLOTTOCODE nuuc1236 has isocodes nuk, nuk
+shared parameters
+ID	kyq	nuu
+kyq	29	3
+nuu	3	48
+different values parameters
+ID	kyq	nuu
+kyq	0	3
+nuu	3	0
+
+
+GLOTTOCODE komi1268 has isocodes kpv, kpv
+shared parameters
+ID	kzy	yzv
+kzy	52	0
+yzv	0	5
+different values parameters
+ID	kzy	yzv
+kzy	0	1
+yzv	1	0
+
+
+GLOTTOCODE stra1244 has isocodes str, str, str, str, str, str
+shared parameters
+ID	lum	sch	sgs	soo	sss	sst
+lum	2	1	1	1	0	0
+sch	1	2	1	1	0	0
+sgs	1	1	2	1	0	0
+soo	1	1	1	2	0	0
+sss	0	0	0	0	4	0
+sst	0	0	0	0	0	2
+different values parameters
+ID	lum	sch	sgs	soo	sss	sst
+lum	0	1	1	1	2	1
+sch	1	0	1	1	2	1
+sgs	1	1	0	1	2	1
+soo	1	1	1	0	2	1
+sss	2	2	2	2	0	1
+sst	1	1	1	1	1	0
+
+
+GLOTTOCODE mand1436 has isocodes mnk, mnk
+shared parameters
+ID	mdk	mkg
+mdk	16	0
+mkg	0	27
+different values parameters
+ID	mdk	mkg
+mdk	0	1
+mkg	1	0
+
+
+GLOTTOCODE west2443 has isocodes dmd, xww
+shared parameters
+ID	mdm	wem
+mdm	27	17
+wem	17	48
+different values parameters
+ID	mdm	wem
+mdm	0	5
+wem	5	0
+
+
+GLOTTOCODE misi1242 has isocodes mrg, mrg
+shared parameters
+ID	mhl	msg
+mhl	10	6
+msg	6	37
+different values parameters
+ID	mhl	msg
+mhl	0	4
+msg	4	0
+
+
+GLOTTOCODE ngem1255 has isocodes nge, nge
+shared parameters
+ID	mkq	nge
+mkq	5	0
+nge	0	2
+different values parameters
+ID	mkq	nge
+mkq	0	1
+nge	1	0
+
+
+GLOTTOCODE ngad1258 has isocodes nju, nju
+shared parameters
+ID	mrj	ngj
+mrj	2	0
+ngj	0	21
+different values parameters
+ID	mrj	ngj
+mrj	0	1
+ngj	1	0
+
+
+GLOTTOCODE tlah1239 has isocodes mxp, mxp
+shared parameters
+ID	mth	mxx
+mth	3	0
+mxx	0	20
+different values parameters
+ID	mth	mxx
+mth	0	1
+mxx	1	0
+
+
+GLOTTOCODE pima1248 has isocodes pia, pia
+shared parameters
+ID	nev	pba
+nev	32	16
+pba	16	39
+different values parameters
+ID	nev	pba
+nev	0	6
+pba	6	0
+
+
+GLOTTOCODE nang1259 has isocodes nam, nam
+shared parameters
+ID	ngg	ngk
+ngg	15	6
+ngk	6	37
+different values parameters
+ID	ngg	ngk
+ngg	0	5
+ngk	5	0
+
+
+GLOTTOCODE nort2957 has isocodes ncj, ncj
+shared parameters
+ID	nhn	nhu
+nhn	40	0
+nhu	0	3
+different values parameters
+ID	nhn	nhu
+nhn	0	1
+nhu	1	0
+
+
+GLOTTOCODE cent1990 has isocodes ncb, ncb
+shared parameters
+ID	nic	nnc
+nic	2	0
+nnc	0	30
+different values parameters
+ID	nic	nnc
+nic	0	1
+nnc	1	0
+
+
+GLOTTOCODE gily1242 has isocodes niv, niv
+shared parameters
+ID	niv	nvs
+niv	132	3
+nvs	3	7
+different values parameters
+ID	niv	nvs
+niv	0	1
+nvs	1	0
+
+
+GLOTTOCODE tuva1244 has isocodes tvl, tvl
+shared parameters
+ID	nnm	tvl
+nnm	3	0
+tvl	0	61
+different values parameters
+ID	nnm	tvl
+nnm	0	1
+tvl	1	0
+
+
+GLOTTOCODE noga1249 has isocodes nog, nog, nog, nog
+shared parameters
+ID	nog	nok	tlb	yta
+nog	18	1	1	0
+nok	1	2	1	0
+tlb	1	1	2	0
+yta	0	0	0	2
+different values parameters
+ID	nog	nok	tlb	yta
+nog	0	1	1	2
+nok	1	0	1	2
+tlb	1	1	0	2
+yta	2	2	2	0
+
+
+GLOTTOCODE occi1239 has isocodes oci, oci
+shared parameters
+ID	occ	pro
+occ	7	1
+pro	1	2
+different values parameters
+ID	occ	pro
+occ	0	1
+pro	1	0
+
+
+GLOTTOCODE ngaj1237 has isocodes nij, nij
+shared parameters
+ID	olm	plp
+olm	5	3
+plp	3	4
+different values parameters
+ID	olm	plp
+olm	0	1
+plp	1	0
+
+
+GLOTTOCODE pitj1243 has isocodes pjt, pjt
+shared parameters
+ID	pit	wdo
+pit	97	13
+wdo	13	14
+different values parameters
+ID	pit	wdo
+pit	0	1
+wdo	1	0
+
+
+GLOTTOCODE balk1252 has isocodes rmn, rmn, rmn
+shared parameters
+ID	rav	rbu	rse
+rav	5	0	0
+rbu	0	2	0
+rse	0	0	3
+different values parameters
+ID	rav	rbu	rse
+rav	0	1	1
+rbu	1	0	1
+rse	1	1	0
+
+
+GLOTTOCODE vlax1238 has isocodes rmy, rmy
+shared parameters
+ID	rka	rlo
+rka	14	0
+rlo	0	2
+different values parameters
+ID	rka	rlo
+rka	0	2
+rlo	2	0
+
+
+GLOTTOCODE roma1326 has isocodes roh, roh, roh, roh
+shared parameters
+ID	rmc	rsc	rsm	rsu
+rmc	4	0	0	0
+rsc	0	14	0	0
+rsm	0	0	4	0
+rsu	0	0	0	24
+different values parameters
+ID	rmc	rsc	rsm	rsu
+rmc	0	1	1	1
+rsc	1	0	1	1
+rsm	1	1	0	1
+rsu	1	1	1	0
+
+
+GLOTTOCODE tibe1272 has isocodes bod, bod, bod, bod, bod, bod
+shared parameters
+ID	rpa	tdi	tdr	tib	tis	tmo
+rpa	15	3	6	6	4	5
+tdi	3	9	6	7	4	7
+tdr	6	6	23	18	11	8
+tib	6	7	18	75	11	12
+tis	4	4	11	11	22	5
+tmo	5	7	8	12	5	33
+different values parameters
+ID	rpa	tdi	tdr	tib	tis	tmo
+rpa	0	4	8	9	8	9
+tdi	4	0	2	2	3	2
+tdr	8	2	0	4	5	11
+tib	9	2	4	0	8	11
+tis	8	3	5	8	0	12
+tmo	9	2	11	11	12	0
+
+
+GLOTTOCODE shos1248 has isocodes shh, shh
+shared parameters
+ID	sho	swr
+sho	21	0
+swr	0	2
+different values parameters
+ID	sho	swr
+sho	0	1
+swr	1	0
+
+
+GLOTTOCODE stan1288 has isocodes spa, spa
+shared parameters
+ID	spa	spc
+spa	156	1
+spc	1	2
+different values parameters
+ID	spa	spc
+spa	0	1
+spc	1	0
+
+
+GLOTTOCODE swed1254 has isocodes swe, swe
+shared parameters
+ID	swe	swv
+swe	79	0
+swv	0	2
+different values parameters
+ID	swe	swv
+swe	0	1
+swv	1	0
+
+
+GLOTTOCODE tigr1270 has isocodes tig, tig
+shared parameters
+ID	tbe	tgr
+tbe	3	0
+tgr	0	66
+different values parameters
+ID	tbe	tgr
+tbe	0	1
+tgr	1	0
+
+
+GLOTTOCODE tewa1260 has isocodes tew, tew, tew
+shared parameters
+ID	tew	trg	tsj
+tew	4	0	0
+trg	0	3	0
+tsj	0	0	3
+different values parameters
+ID	tew	trg	tsj
+tew	0	3	1
+trg	3	0	1
+tsj	1	1	0
+
+
+GLOTTOCODE khor1269 has isocodes kmz, kmz
+shared parameters
+ID	tex	twx
+tex	2	1
+twx	1	2
+different values parameters
+ID	tex	twx
+tex	0	1
+twx	1	0
+
+
+GLOTTOCODE taha1241 has isocodes thv, thv
+shared parameters
+ID	tgh	tug
+tgh	21	0
+tug	0	25
+different values parameters
+ID	tgh	tug
+tgh	0	1
+tug	1	0
+
+
+GLOTTOCODE tata1255 has isocodes tat, tat, tat
+shared parameters
+ID	tmi	ttb	tvo
+tmi	2	0	0
+ttb	0	2	1
+tvo	0	1	45
+different values parameters
+ID	tmi	ttb	tvo
+tmi	0	1	1
+ttb	1	0	1
+tvo	1	1	0
+
+
+GLOTTOCODE tami1289 has isocodes tam, tam
+shared parameters
+ID	tml	tsp
+tml	84	0
+tsp	0	2
+different values parameters
+ID	tml	tsp
+tml	0	1
+tsp	1	0
+
+
+GLOTTOCODE tzel1254 has isocodes tzh, tzh, tzh
+shared parameters
+ID	tza	tze	tzt
+tza	14	0	0
+tze	0	5	2
+tzt	0	2	3
+different values parameters
+ID	tza	tze	tzt
+tza	0	1	1
+tze	1	0	1
+tzt	1	1	0
+
+
+GLOTTOCODE wels1247 has isocodes cym, cym
+shared parameters
+ID	wec	wel
+wec	15	6
+wel	6	70
+different values parameters
+ID	wec	wel
+wec	0	9
+wel	9	0
+
+
+GLOTTOCODE yoku1256 has isocodes yok, yok, yok
+shared parameters
+ID	wik	yok	ywl
+wik	36	16	15
+yok	16	32	14
+ywl	15	14	35
+different values parameters
+ID	wik	yok	ywl
+wik	0	6	2
+yok	6	0	2
+ywl	2	2	0
+
+
+GLOTTOCODE cent2127 has isocodes esu, esu, esu
+shared parameters
+ID	ych	ypk	yun
+ych	5	4	4
+ypk	4	84	4
+yun	4	4	5
+different values parameters
+ID	ych	ypk	yun
+ych	0	1	1
+ypk	1	0	1
+yun	1	1	0
+
+
+GLOTTOCODE east2295 has isocodes ydd, ydd, ydd, ydd
+shared parameters
+ID	ydb	ydd	ydl	ylt
+ydb	2	0	1	1
+ydd	0	3	0	0
+ydl	1	0	2	1
+ylt	1	0	1	2
+different values parameters
+ID	ydb	ydd	ydl	ylt
+ydb	0	1	1	1
+ydd	1	0	1	1
+ydl	1	1	0	1
+ylt	1	1	1	0
+
+
+GLOTTOCODE cent2128 has isocodes ess, ess
+shared parameters
+ID	ysl	yus
+ysl	5	0
+yus	0	33
+different values parameters
+ID	ysl	yus
+ysl	0	1
+yus	1	0
+
+
+GLOTTOCODE zulu1248 has isocodes zul, zul, zul
+shared parameters
+ID	zno	zso	zul
+zno	2	0	0
+zso	0	2	0
+zul	0	0	143
+different values parameters
+ID	zno	zso	zul
+zno	0	2	1
+zso	2	0	1
+zul	1	1	0
+
+

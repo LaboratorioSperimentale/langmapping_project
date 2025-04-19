@@ -1,0 +1,1598 @@
+GLOTTOCODE chad1249 has codes abb (3 params, 1-eth), arn (2 params, 1-eth)
+	abb - written status: Primarily oral
+		ID - [VALUE: abb]
+			DIFFERENT VALUES: arn: [arn]
+	arn - written status: Primarily oral
+		ID - [VALUE: arn]
+			DIFFERENT VALUES: abb: [abb]
+
+
+GLOTTOCODE nort3139 has codes abe (5 params, 1-eth), anl (4 params, 1-eth), arl (9 params, 1-eth), asy (53 params, 1-eth)
+	abe - written status: Written
+		ID - [VALUE: abe]
+			DIFFERENT VALUES: anl: [anl] arl: [arl] asy: [asy]
+	anl - written status: Written
+		ID - [VALUE: anl]
+			DIFFERENT VALUES: abe: [abe] arl: [arl] asy: [asy]
+	arl - written status: Written
+		ID - [VALUE: arl]
+			DIFFERENT VALUES: abe: [abe] anl: [anl] asy: [asy]
+	asy - written status: Written
+		ID - [VALUE: asy]
+			DIFFERENT VALUES: abe: [abe] anl: [anl] arl: [arl]
+
+
+GLOTTOCODE adyg1241 has codes adt (3 params, 1-eth), ady (18 params, 1-eth), ash (2 params, 1-eth)
+	adt - written status: Written
+		ID - [VALUE: adt]
+			DIFFERENT VALUES: ady: [ady] ash: [ash]
+	ady - written status: Written
+		ID - [VALUE: ady]
+			DIFFERENT VALUES: adt: [adt] ash: [ash]
+	ash - written status: Written
+		ID - [VALUE: ash]
+			DIFFERENT VALUES: adt: [adt] ady: [ady]
+
+
+GLOTTOCODE aleu1260 has codes aea (15 params, 1-eth), ale (26 params, 1-eth)
+	aea - written status: Primarily oral
+		ID - [VALUE: aea]
+			DIFFERENT VALUES: ale: [ale]
+	ale - written status: Primarily oral
+		ID - [VALUE: ale]
+			DIFFERENT VALUES: aea: [aea]
+
+
+GLOTTOCODE swis1247 has codes alt (2 params, 1-eth), gbe (2 params, 1-eth), gos (2 params, 1-eth), gpz (2 params, 1-eth), gtg (2 params, 1-eth), gzu (2 params, 1-eth)
+	alt - written status: Written
+		ID - [VALUE: alt]
+			DIFFERENT VALUES: gbe: [gbe] gos: [gos] gpz: [gpz] gtg: [gtg] gzu: [gzu]
+	gbe - written status: Written
+		ID - [VALUE: gbe]
+			DIFFERENT VALUES: alt: [alt] gos: [gos] gpz: [gpz] gtg: [gtg] gzu: [gzu]
+	gos - written status: Written
+		ID - [VALUE: gos]
+			DIFFERENT VALUES: alt: [alt] gbe: [gbe] gpz: [gpz] gtg: [gtg] gzu: [gzu]
+	gpz - written status: Written
+		ID - [VALUE: gpz]
+			DIFFERENT VALUES: alt: [alt] gbe: [gbe] gos: [gos] gtg: [gtg] gzu: [gzu]
+	gtg - written status: Written
+		ID - [VALUE: gtg]
+			DIFFERENT VALUES: alt: [alt] gbe: [gbe] gos: [gos] gpz: [gpz] gzu: [gzu]
+	gzu - written status: Written
+		ID - [VALUE: gzu]
+			DIFFERENT VALUES: alt: [alt] gbe: [gbe] gos: [gos] gpz: [gpz] gtg: [gtg]
+
+
+GLOTTOCODE amdo1237 has codes amd (3 params, 1-eth), amt (20 params, 1-eth)
+	amd - written status: Written
+		ID - [VALUE: amd]
+			DIFFERENT VALUES: amt: [amt]
+	amt - written status: Written
+		ID - [VALUE: amt]
+			DIFFERENT VALUES: amd: [amd]
+
+
+GLOTTOCODE sout3123 has codes apa (7 params, 0-eth), arv (5 params, 0-eth)
+	apa - written status: missing
+		ID - [VALUE: apa]
+			DIFFERENT VALUES: arv: [arv]
+		W:Weight-Sensitive Stress - [VALUE: Right-oriented: The antepenultimate is involved]
+			DIFFERENT VALUES: arv: [Combined: Both Right-edge and unbounded]
+	arv - written status: missing
+		ID - [VALUE: arv]
+			DIFFERENT VALUES: apa: [apa]
+		W:Weight-Sensitive Stress - [VALUE: Combined: Both Right-edge and unbounded]
+			DIFFERENT VALUES: apa: [Right-oriented: The antepenultimate is involved]
+
+
+GLOTTOCODE apuc1241 has codes apk (2 params, 1-eth), gan (25 params, 1-eth)
+	apk - written status: Primarily oral
+		ID - [VALUE: apk]
+			DIFFERENT VALUES: gan: [gan]
+	gan - written status: Primarily oral
+		ID - [VALUE: gan]
+			DIFFERENT VALUES: apk: [apk]
+
+
+GLOTTOCODE gulf1241 has codes arg (63 params, 1-eth), arj (32 params, 1-eth)
+	arg - written status: Primarily oral
+		ID - [VALUE: arg]
+			DIFFERENT VALUES: arj: [arj]
+		W:Order of Numeral and Noun - [VALUE: Numeral precedes noun (NumN)]
+			DIFFERENT VALUES: arj: [Both orders of numeral and noun with neither order dominant]
+	arj - written status: Primarily oral
+		ID - [VALUE: arj]
+			DIFFERENT VALUES: arg: [arg]
+		W:Order of Numeral and Noun - [VALUE: Both orders of numeral and noun with neither order dominant]
+			DIFFERENT VALUES: arg: [Numeral precedes noun (NumN)]
+
+
+GLOTTOCODE nucl1235 has codes arm (130 params, 1-eth), arz (2 params, 1-eth)
+	arm - written status: Written
+		ID - [VALUE: arm]
+			DIFFERENT VALUES: arz: [arz]
+		W:Numeral Classifiers - [VALUE: Numeral classifiers are absent]
+			DIFFERENT VALUES: arz: [Numeral classifiers are optional]
+	arz - written status: Written
+		ID - [VALUE: arz]
+			DIFFERENT VALUES: arm: [arm]
+		W:Numeral Classifiers - [VALUE: Numeral classifiers are optional]
+			DIFFERENT VALUES: arm: [Numeral classifiers are absent]
+
+
+GLOTTOCODE wadj1254 has codes bac (20 params, 1-eth), pun (21 params, 1-eth)
+	bac - written status: Primarily oral
+		ID - [VALUE: bac]
+			DIFFERENT VALUES: pun: [pun]
+		W:Position of Tense-Aspect Affixes - [VALUE: Tense-aspect suffixes]
+			DIFFERENT VALUES: pun: [No tense-aspect inflection]
+		W:Order of Subject, Object and Verb - [VALUE: Lacking a dominant word order]
+			DIFFERENT VALUES: pun: [Subject-object-verb (SOV)]
+		W:Order of Subject and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: pun: [Subject precedes verb (SV)]
+		W:Order of Object and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: pun: [Object precedes verb (OV)]
+		W:Order of Adjective and Noun - [VALUE: Both orders of noun and modifying adjective occur, with neither dominant]
+			DIFFERENT VALUES: pun: [Modifying adjective follows noun (NAdj)]
+		W:Position of Interrogative Phrases in Content Questions - [VALUE: Interrogative phrases obligatorily initial]
+			DIFFERENT VALUES: pun: [Interrogative phrases not obligatorily initial]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: pun: [Object-verb and postpositional (OV&Postp)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: pun: [Object-verb and noun-adjective (OV&NAdj)]
+	pun - written status: Primarily oral
+		ID - [VALUE: pun]
+			DIFFERENT VALUES: bac: [bac]
+		W:Position of Tense-Aspect Affixes - [VALUE: No tense-aspect inflection]
+			DIFFERENT VALUES: bac: [Tense-aspect suffixes]
+		W:Order of Subject, Object and Verb - [VALUE: Subject-object-verb (SOV)]
+			DIFFERENT VALUES: bac: [Lacking a dominant word order]
+		W:Order of Subject and Verb - [VALUE: Subject precedes verb (SV)]
+			DIFFERENT VALUES: bac: [Both orders with neither order dominant]
+		W:Order of Object and Verb - [VALUE: Object precedes verb (OV)]
+			DIFFERENT VALUES: bac: [Both orders with neither order dominant]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: bac: [Both orders of noun and modifying adjective occur, with neither dominant]
+		W:Position of Interrogative Phrases in Content Questions - [VALUE: Interrogative phrases not obligatorily initial]
+			DIFFERENT VALUES: bac: [Interrogative phrases obligatorily initial]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Object-verb and postpositional (OV&Postp)]
+			DIFFERENT VALUES: bac: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: bac: [Languages not falling into one of the preceding four types]
+
+
+GLOTTOCODE bari1284 has codes bar (54 params, 1-eth), kuk (12 params, 1-eth)
+	bar - written status: Written
+		ID - [VALUE: bar]
+			DIFFERENT VALUES: kuk: [kuk]
+	kuk - written status: Written
+		ID - [VALUE: kuk]
+			DIFFERENT VALUES: bar: [bar]
+
+
+GLOTTOCODE band1339 has codes bca (3 params, 1-eth), bnj (30 params, 1-eth), bwa (8 params, 1-eth), byu (17 params, 1-eth)
+	bca - written status: Primarily oral
+		ID - [VALUE: bca]
+			DIFFERENT VALUES: bnj: [bnj] bwa: [bwa] byu: [byu]
+		W:Finger and Hand - [VALUE: Differentiation: one word denotes 'hand' and another, different word denotes 'finger' (or, very rarely, 'fingers')]
+			DIFFERENT VALUES: bnj: [Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers'] bwa: [Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers'] byu: [Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers']
+	bnj - written status: Primarily oral
+		ID - [VALUE: bnj]
+			DIFFERENT VALUES: bca: [bca] bwa: [bwa] byu: [byu]
+		W:Finger and Hand - [VALUE: Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers']
+			DIFFERENT VALUES: bca: [Differentiation: one word denotes 'hand' and another, different word denotes 'finger' (or, very rarely, 'fingers')]
+	bwa - written status: Primarily oral
+		ID - [VALUE: bwa]
+			DIFFERENT VALUES: bca: [bca] bnj: [bnj] byu: [byu]
+		W:Finger and Hand - [VALUE: Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers']
+			DIFFERENT VALUES: bca: [Differentiation: one word denotes 'hand' and another, different word denotes 'finger' (or, very rarely, 'fingers')]
+	byu - written status: Primarily oral
+		ID - [VALUE: byu]
+			DIFFERENT VALUES: bca: [bca] bnj: [bnj] bwa: [bwa]
+		W:Finger and Hand - [VALUE: Identity: a single word denotes both 'hand' and 'finger' and/or 'fingers']
+			DIFFERENT VALUES: bca: [Differentiation: one word denotes 'hand' and another, different word denotes 'finger' (or, very rarely, 'fingers')]
+
+
+GLOTTOCODE mund1320 has codes bhu (10 params, 1-eth), mun (115 params, 1-eth)
+	bhu - written status: Written
+		ID - [VALUE: bhu]
+			DIFFERENT VALUES: mun: [mun]
+		W:The Morphological Imperative - [VALUE: The language has no morphologically dedicated second-person imperatives at all]
+			DIFFERENT VALUES: mun: [The language has morphologically dedicated second singular as well as second plural imperatives]
+	mun - written status: Written
+		ID - [VALUE: mun]
+			DIFFERENT VALUES: bhu: [bhu]
+		W:The Morphological Imperative - [VALUE: The language has morphologically dedicated second singular as well as second plural imperatives]
+			DIFFERENT VALUES: bhu: [The language has no morphologically dedicated second-person imperatives at all]
+
+
+GLOTTOCODE orok1266 has codes bkn (4 params, 1-eth), ldo (27 params, 1-eth)
+	bkn - written status: Primarily oral
+		ID - [VALUE: bkn]
+			DIFFERENT VALUES: ldo: [ldo]
+	ldo - written status: Primarily oral
+		ID - [VALUE: ldo]
+			DIFFERENT VALUES: bkn: [bkn]
+
+
+GLOTTOCODE luba1249 has codes blu (7 params, 1-eth), cil (19 params, 1-eth)
+	blu - written status: Written
+		ID - [VALUE: blu]
+			DIFFERENT VALUES: cil: [cil]
+	cil - written status: Written
+		ID - [VALUE: cil]
+			DIFFERENT VALUES: blu: [blu]
+
+
+GLOTTOCODE basq1248 has codes bqb (5 params, 1-eth), bqg (5 params, 1-eth), bqh (5 params, 1-eth), bqi (5 params, 1-eth), bql (5 params, 1-eth), bqn (5 params, 1-eth), bqo (5 params, 1-eth), bqr (5 params, 1-eth), bqs (5 params, 1-eth), bqz (5 params, 1-eth), bsq (150 params, 1-eth)
+	bqb - written status: Written
+		ID - [VALUE: bqb]
+			DIFFERENT VALUES: bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Second: stress is on the second syllable]
+			DIFFERENT VALUES: bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqg - written status: Written
+		ID - [VALUE: bqg]
+			DIFFERENT VALUES: bqb: [bqb] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: No fixed stress (mostly weight-sensitive stress)]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqo: [Second: stress is on the second syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable]
+		W:Weight-Sensitive Stress - [VALUE: Not predictable]
+			DIFFERENT VALUES: bqb: [Fixed stress (no weight-sensitivity)] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bql: [Fixed stress (no weight-sensitivity)] bqn: [Fixed stress (no weight-sensitivity)] bqo: [Fixed stress (no weight-sensitivity)] bqr: [Fixed stress (no weight-sensitivity)] bqs: [Fixed stress (no weight-sensitivity)]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: Lexical: lexical stress, diacritic weight]
+			DIFFERENT VALUES: bqb: [No weight, or weight factor unknown] bqh: [Coda consonant: closed syllables are heavy for stress] bql: [No weight, or weight factor unknown] bqn: [No weight, or weight factor unknown] bqo: [No weight, or weight factor unknown] bqr: [No weight, or weight factor unknown] bqs: [No weight, or weight factor unknown]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqh - written status: Written
+		ID - [VALUE: bqh]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: No fixed stress (mostly weight-sensitive stress)]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqo: [Second: stress is on the second syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable]
+		W:Weight-Sensitive Stress - [VALUE: Right-edge: Stress on ultimate or penultimate syllable]
+			DIFFERENT VALUES: bqb: [Fixed stress (no weight-sensitivity)] bqg: [Not predictable] bqi: [Left-edge: Stress is on the first or second syllable] bql: [Fixed stress (no weight-sensitivity)] bqn: [Fixed stress (no weight-sensitivity)] bqo: [Fixed stress (no weight-sensitivity)] bqr: [Fixed stress (no weight-sensitivity)] bqs: [Fixed stress (no weight-sensitivity)] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: Coda consonant: closed syllables are heavy for stress]
+			DIFFERENT VALUES: bqb: [No weight, or weight factor unknown] bqg: [Lexical: lexical stress, diacritic weight] bqi: [Lexical: lexical stress, diacritic weight] bql: [No weight, or weight factor unknown] bqn: [No weight, or weight factor unknown] bqo: [No weight, or weight factor unknown] bqr: [No weight, or weight factor unknown] bqs: [No weight, or weight factor unknown] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqi - written status: Written
+		ID - [VALUE: bqi]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: No fixed stress (mostly weight-sensitive stress)]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqo: [Second: stress is on the second syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable]
+		W:Weight-Sensitive Stress - [VALUE: Left-edge: Stress is on the first or second syllable]
+			DIFFERENT VALUES: bqb: [Fixed stress (no weight-sensitivity)] bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bql: [Fixed stress (no weight-sensitivity)] bqn: [Fixed stress (no weight-sensitivity)] bqo: [Fixed stress (no weight-sensitivity)] bqr: [Fixed stress (no weight-sensitivity)] bqs: [Fixed stress (no weight-sensitivity)] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: Lexical: lexical stress, diacritic weight]
+			DIFFERENT VALUES: bqb: [No weight, or weight factor unknown] bqh: [Coda consonant: closed syllables are heavy for stress] bql: [No weight, or weight factor unknown] bqn: [No weight, or weight factor unknown] bqo: [No weight, or weight factor unknown] bqr: [No weight, or weight factor unknown] bqs: [No weight, or weight factor unknown]
+		W:Rhythm Types - [VALUE: Undetermined: no clear foot type]
+			DIFFERENT VALUES: bqb: [Absent: no rhythmic stress] bqg: [Absent: no rhythmic stress] bqh: [Absent: no rhythmic stress] bql: [Absent: no rhythmic stress] bqn: [Absent: no rhythmic stress] bqo: [Absent: no rhythmic stress] bqr: [Absent: no rhythmic stress] bqz: [Absent: no rhythmic stress]
+	bql - written status: Written
+		ID - [VALUE: bql]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Penultimate: stress is on the penultimate (second from the right) syllable]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bqo: [Second: stress is on the second syllable] bqs: [Initial: stress is on the first syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqn - written status: Written
+		ID - [VALUE: bqn]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Penultimate: stress is on the penultimate (second from the right) syllable]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bqo: [Second: stress is on the second syllable] bqs: [Initial: stress is on the first syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqo - written status: Written
+		ID - [VALUE: bqo]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqr: [bqr] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Second: stress is on the second syllable]
+			DIFFERENT VALUES: bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqr - written status: Written
+		ID - [VALUE: bqr]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqs: [bqs] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Penultimate: stress is on the penultimate (second from the right) syllable]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bqo: [Second: stress is on the second syllable] bqs: [Initial: stress is on the first syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bqs - written status: Written
+		ID - [VALUE: bqs]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqz: [bqz] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: Initial: stress is on the first syllable]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bqg: [No fixed stress (mostly weight-sensitive stress)] bqh: [No fixed stress (mostly weight-sensitive stress)] bqi: [No fixed stress (mostly weight-sensitive stress)] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqo: [Second: stress is on the second syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqz: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: bqg: [Not predictable] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bqz: [Not predictable]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: No weight, or weight factor unknown]
+			DIFFERENT VALUES: bqg: [Lexical: lexical stress, diacritic weight] bqh: [Coda consonant: closed syllables are heavy for stress] bqi: [Lexical: lexical stress, diacritic weight] bqz: [Lexical: lexical stress, diacritic weight]
+		W:Rhythm Types - [VALUE: Undetermined: no clear foot type]
+			DIFFERENT VALUES: bqb: [Absent: no rhythmic stress] bqg: [Absent: no rhythmic stress] bqh: [Absent: no rhythmic stress] bql: [Absent: no rhythmic stress] bqn: [Absent: no rhythmic stress] bqo: [Absent: no rhythmic stress] bqr: [Absent: no rhythmic stress] bqz: [Absent: no rhythmic stress]
+	bqz - written status: Written
+		ID - [VALUE: bqz]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bsq: [bsq]
+		W:Fixed Stress Locations - [VALUE: No fixed stress (mostly weight-sensitive stress)]
+			DIFFERENT VALUES: bqb: [Second: stress is on the second syllable] bql: [Penultimate: stress is on the penultimate (second from the right) syllable] bqn: [Penultimate: stress is on the penultimate (second from the right) syllable] bqo: [Second: stress is on the second syllable] bqr: [Penultimate: stress is on the penultimate (second from the right) syllable] bqs: [Initial: stress is on the first syllable]
+		W:Weight-Sensitive Stress - [VALUE: Not predictable]
+			DIFFERENT VALUES: bqb: [Fixed stress (no weight-sensitivity)] bqh: [Right-edge: Stress on ultimate or penultimate syllable] bqi: [Left-edge: Stress is on the first or second syllable] bql: [Fixed stress (no weight-sensitivity)] bqn: [Fixed stress (no weight-sensitivity)] bqo: [Fixed stress (no weight-sensitivity)] bqr: [Fixed stress (no weight-sensitivity)] bqs: [Fixed stress (no weight-sensitivity)]
+		W:Weight Factors in Weight-Sensitive Stress Systems - [VALUE: Lexical: lexical stress, diacritic weight]
+			DIFFERENT VALUES: bqb: [No weight, or weight factor unknown] bqh: [Coda consonant: closed syllables are heavy for stress] bql: [No weight, or weight factor unknown] bqn: [No weight, or weight factor unknown] bqo: [No weight, or weight factor unknown] bqr: [No weight, or weight factor unknown] bqs: [No weight, or weight factor unknown]
+		W:Rhythm Types - [VALUE: Absent: no rhythmic stress]
+			DIFFERENT VALUES: bqi: [Undetermined: no clear foot type] bqs: [Undetermined: no clear foot type]
+	bsq - written status: Written
+		ID - [VALUE: bsq]
+			DIFFERENT VALUES: bqb: [bqb] bqg: [bqg] bqh: [bqh] bqi: [bqi] bql: [bql] bqn: [bqn] bqo: [bqo] bqr: [bqr] bqs: [bqs] bqz: [bqz]
+
+
+GLOTTOCODE tari1263 has codes brf (39 params, 1-eth), bse (7 params, 1-eth)
+	brf - written status: Written
+		ID - [VALUE: brf]
+			DIFFERENT VALUES: bse: [bse]
+	bse - written status: Written
+		ID - [VALUE: bse]
+			DIFFERENT VALUES: brf: [brf]
+
+
+GLOTTOCODE suri1267 has codes cai (42 params, 1-eth), trm (31 params, 1-eth)
+	cai - written status: Written
+		ID - [VALUE: cai]
+			DIFFERENT VALUES: trm: [trm]
+		W:Order of Subject, Object and Verb - [VALUE: Lacking a dominant word order]
+			DIFFERENT VALUES: trm: [Subject-verb-object (SVO)]
+		W:Order of Object and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: trm: [Object follows verb (VO)]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: trm: [Verb-object and postpositional (VO&Postp)]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: trm: [Verb-object and noun-relative clause (VO&NRel)]
+		W:Negative Morphemes - [VALUE: Negative particle]
+			DIFFERENT VALUES: trm: [Double negation]
+		W:Order of Negative Morpheme and Verb - [VALUE: Type 1 / Type 2]
+			DIFFERENT VALUES: trm: [Obligatory Double Negation]
+		W:Preverbal Negative Morphemes - [VALUE: Preverbal negative word]
+			DIFFERENT VALUES: trm: [Both preverbal negative word and negative prefix]
+		W:Postverbal Negative Morphemes - [VALUE: Postverbal negative word]
+			DIFFERENT VALUES: trm: [Negative suffix]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: More than one position for negative morpheme, with none dominant]
+			DIFFERENT VALUES: trm: [Obligatory double negation]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: More than one negative construction]
+			DIFFERENT VALUES: trm: [SOV with obligatory double negation]
+		W:SONegV Order - [VALUE: Separate word, no double negation]
+			DIFFERENT VALUES: trm: [Separate word, only occurs with another negative morpheme]
+		W:SOVNeg Order - [VALUE: Separate word, no double negation]
+			DIFFERENT VALUES: trm: [Suffix, only occurs with another negative morpheme]
+	trm - written status: Written
+		ID - [VALUE: trm]
+			DIFFERENT VALUES: cai: [cai]
+		W:Order of Subject, Object and Verb - [VALUE: Subject-verb-object (SVO)]
+			DIFFERENT VALUES: cai: [Lacking a dominant word order]
+		W:Order of Object and Verb - [VALUE: Object follows verb (VO)]
+			DIFFERENT VALUES: cai: [Both orders with neither order dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Verb-object and postpositional (VO&Postp)]
+			DIFFERENT VALUES: cai: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Verb-object and noun-relative clause (VO&NRel)]
+			DIFFERENT VALUES: cai: [Languages not falling into one of the preceding four types]
+		W:Negative Morphemes - [VALUE: Double negation]
+			DIFFERENT VALUES: cai: [Negative particle]
+		W:Order of Negative Morpheme and Verb - [VALUE: Obligatory Double Negation]
+			DIFFERENT VALUES: cai: [Type 1 / Type 2]
+		W:Preverbal Negative Morphemes - [VALUE: Both preverbal negative word and negative prefix]
+			DIFFERENT VALUES: cai: [Preverbal negative word]
+		W:Postverbal Negative Morphemes - [VALUE: Negative suffix]
+			DIFFERENT VALUES: cai: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Obligatory double negation]
+			DIFFERENT VALUES: cai: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SOV with obligatory double negation]
+			DIFFERENT VALUES: cai: [More than one negative construction]
+		W:SONegV Order - [VALUE: Separate word, only occurs with another negative morpheme]
+			DIFFERENT VALUES: cai: [Separate word, no double negation]
+		W:SOVNeg Order - [VALUE: Suffix, only occurs with another negative morpheme]
+			DIFFERENT VALUES: cai: [Separate word, no double negation]
+
+
+GLOTTOCODE seba1251 has codes chh (41 params, 1-eth), muh (2 params, 1-eth)
+	chh - written status: Primarily oral
+		ID - [VALUE: chh]
+			DIFFERENT VALUES: muh: [muh]
+	muh - written status: Primarily oral
+		ID - [VALUE: muh]
+			DIFFERENT VALUES: chh: [chh]
+
+
+GLOTTOCODE chal1275 has codes cld (18 params, 1-eth), naa (2 params, 1-eth)
+	cld - written status: Primarily oral
+		ID - [VALUE: cld]
+			DIFFERENT VALUES: naa: [naa]
+	naa - written status: Primarily oral
+		ID - [VALUE: naa]
+			DIFFERENT VALUES: cld: [cld]
+
+
+GLOTTOCODE chip1241 has codes cpw (2 params, 1-eth), ojm (6 params, 1-eth)
+	cpw - written status: Primarily oral
+		ID - [VALUE: cpw]
+			DIFFERENT VALUES: ojm: [ojm]
+	ojm - written status: Primarily oral
+		ID - [VALUE: ojm]
+			DIFFERENT VALUES: cpw: [cpw]
+
+
+GLOTTOCODE cari1279 has codes crj (6 params, 1-eth), guq (2 params, 1-eth), hia (2 params, 1-eth), umu (2 params, 1-eth)
+	crj - written status: Primarily oral
+		ID - [VALUE: crj]
+			DIFFERENT VALUES: guq: [guq] hia: [hia] umu: [umu]
+	guq - written status: Primarily oral
+		ID - [VALUE: guq]
+			DIFFERENT VALUES: crj: [crj] hia: [hia] umu: [umu]
+	hia - written status: Primarily oral
+		ID - [VALUE: hia]
+			DIFFERENT VALUES: crj: [crj] guq: [guq] umu: [umu]
+	umu - written status: Primarily oral
+		ID - [VALUE: umu]
+			DIFFERENT VALUES: crj: [crj] guq: [guq] hia: [hia]
+
+
+GLOTTOCODE cree1270 has codes crk (8 params, 1-eth), smn (28 params, 1-eth)
+	crk - written status: Primarily oral
+		ID - [VALUE: crk]
+			DIFFERENT VALUES: smn: [smn]
+	smn - written status: Primarily oral
+		ID - [VALUE: smn]
+			DIFFERENT VALUES: crk: [crk]
+
+
+GLOTTOCODE west2644 has codes cso (52 params, 1-eth), cya (35 params, 1-eth)
+	cso - written status: Written
+		ID - [VALUE: cso]
+			DIFFERENT VALUES: cya: [cya]
+		W:Position of Tense-Aspect Affixes - [VALUE: Tense-aspect prefixes]
+			DIFFERENT VALUES: cya: [Combination of tense-aspect strategies with none primary]
+	cya - written status: Written
+		ID - [VALUE: cya]
+			DIFFERENT VALUES: cso: [cso]
+		W:Position of Tense-Aspect Affixes - [VALUE: Combination of tense-aspect strategies with none primary]
+			DIFFERENT VALUES: cso: [Tense-aspect prefixes]
+
+
+GLOTTOCODE dutc1256 has codes dbr (2 params, 1-eth), dli (2 params, 1-eth), dut (90 params, 1-eth)
+	dbr - written status: Written
+		ID - [VALUE: dbr]
+			DIFFERENT VALUES: dli: [dli] dut: [dut]
+	dli - written status: Written
+		ID - [VALUE: dli]
+			DIFFERENT VALUES: dbr: [dbr] dut: [dut]
+	dut - written status: Written
+		ID - [VALUE: dut]
+			DIFFERENT VALUES: dbr: [dbr] dli: [dli]
+
+
+GLOTTOCODE godi1239 has codes ddj (15 params, 1-eth), gdi (11 params, 1-eth)
+	ddj - written status: Written
+		ID - [VALUE: ddj]
+			DIFFERENT VALUES: gdi: [gdi]
+	gdi - written status: Written
+		ID - [VALUE: gdi]
+			DIFFERENT VALUES: ddj: [ddj]
+
+
+GLOTTOCODE dera1245 has codes der (25 params, 1-eth), dlm (24 params, 1-eth)
+	der - written status: Primarily oral
+		ID - [VALUE: der]
+			DIFFERENT VALUES: dlm: [dlm]
+		W:Order of Demonstrative and Noun - [VALUE: Two or more of above types with none dominant]
+			DIFFERENT VALUES: dlm: [Demonstrative word precedes noun (DemN)]
+		W:Order of Numeral and Noun - [VALUE: Numeral precedes noun (NumN)]
+			DIFFERENT VALUES: dlm: [Numeral follows noun (NNum)]
+	dlm - written status: Primarily oral
+		ID - [VALUE: dlm]
+			DIFFERENT VALUES: der: [der]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative word precedes noun (DemN)]
+			DIFFERENT VALUES: der: [Two or more of above types with none dominant]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: der: [Numeral precedes noun (NumN)]
+
+
+GLOTTOCODE kumi1248 has codes die (77 params, 1-eth), tja (61 params, 1-eth)
+	die - written status: Primarily oral
+		ID - [VALUE: die]
+			DIFFERENT VALUES: tja: [tja]
+		W:Coding of Nominal Plurality - [VALUE: No plural]
+			DIFFERENT VALUES: tja: [Plural stem change]
+		W:Definite Articles - [VALUE: Definite word distinct from demonstrative]
+			DIFFERENT VALUES: tja: [Demonstrative word used as marker of definiteness]
+		W:Position of Tense-Aspect Affixes - [VALUE: Combination of tense-aspect strategies with none primary]
+			DIFFERENT VALUES: tja: [Tense-aspect suffixes]
+		W:Position of Polar Question Particles - [VALUE: No question particle]
+			DIFFERENT VALUES: tja: [Question particle at end of sentence]
+		W:Negative Morphemes - [VALUE: Negative auxiliary verb]
+			DIFFERENT VALUES: tja: [Negative particle]
+		W:Polar Questions - [VALUE: Interrogative verb morphology]
+			DIFFERENT VALUES: tja: [Question particle]
+		W:Order of Negative Morpheme and Verb - [VALUE: VNeg]
+			DIFFERENT VALUES: tja: [Optional Double Negation]
+		W:Preverbal Negative Morphemes - [VALUE: No preverbal negative morpheme]
+			DIFFERENT VALUES: tja: [Preverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: SOVNeg]
+			DIFFERENT VALUES: tja: [Optional double negation]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SOVNeg]
+			DIFFERENT VALUES: tja: [SOV with optional double negation]
+		W:NegSOV Order - [VALUE: SOV but NegSOV does not occur]
+			DIFFERENT VALUES: tja: [Separate word, only occurs with another negative morpheme]
+		W:SNegOV Order - [VALUE: SOV but SNegOV does not occur]
+			DIFFERENT VALUES: tja: [Separate word, only occurs with another negative morpheme]
+		W:SONegV Order - [VALUE: SOV, but SONegV does not occur]
+			DIFFERENT VALUES: tja: [Separate word, only occurs with another negative morpheme]
+		W:SOVNeg Order - [VALUE: Separate word, no double negation]
+			DIFFERENT VALUES: tja: [Separate word, optional double negation, with SONegV possible without a second negative]
+	tja - written status: Primarily oral
+		ID - [VALUE: tja]
+			DIFFERENT VALUES: die: [die]
+		W:Coding of Nominal Plurality - [VALUE: Plural stem change]
+			DIFFERENT VALUES: die: [No plural]
+		W:Definite Articles - [VALUE: Demonstrative word used as marker of definiteness]
+			DIFFERENT VALUES: die: [Definite word distinct from demonstrative]
+		W:Position of Tense-Aspect Affixes - [VALUE: Tense-aspect suffixes]
+			DIFFERENT VALUES: die: [Combination of tense-aspect strategies with none primary]
+		W:Position of Polar Question Particles - [VALUE: Question particle at end of sentence]
+			DIFFERENT VALUES: die: [No question particle]
+		W:Negative Morphemes - [VALUE: Negative particle]
+			DIFFERENT VALUES: die: [Negative auxiliary verb]
+		W:Polar Questions - [VALUE: Question particle]
+			DIFFERENT VALUES: die: [Interrogative verb morphology]
+		W:Order of Negative Morpheme and Verb - [VALUE: Optional Double Negation]
+			DIFFERENT VALUES: die: [VNeg]
+		W:Preverbal Negative Morphemes - [VALUE: Preverbal negative word]
+			DIFFERENT VALUES: die: [No preverbal negative morpheme]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Optional double negation]
+			DIFFERENT VALUES: die: [SOVNeg]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SOV with optional double negation]
+			DIFFERENT VALUES: die: [SOVNeg]
+		W:NegSOV Order - [VALUE: Separate word, only occurs with another negative morpheme]
+			DIFFERENT VALUES: die: [SOV but NegSOV does not occur]
+		W:SNegOV Order - [VALUE: Separate word, only occurs with another negative morpheme]
+			DIFFERENT VALUES: die: [SOV but SNegOV does not occur]
+		W:SONegV Order - [VALUE: Separate word, only occurs with another negative morpheme]
+			DIFFERENT VALUES: die: [SOV, but SONegV does not occur]
+		W:SOVNeg Order - [VALUE: Separate word, optional double negation, with SONegV possible without a second negative]
+			DIFFERENT VALUES: die: [Separate word, no double negation]
+
+
+GLOTTOCODE even1259 has codes eve (150 params, 1-eth), sol (4 params, 1-eth)
+	eve - written status: Written
+		ID - [VALUE: eve]
+			DIFFERENT VALUES: sol: [sol]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: sol: [Velar nasal, but not initially]
+		W:Hand and Arm - [VALUE: Differentiation: one word denotes 'hand' and another, different word denotes 'arm']
+			DIFFERENT VALUES: sol: [Identity: a single word denotes both 'hand' and 'arm']
+	sol - written status: Written
+		ID - [VALUE: sol]
+			DIFFERENT VALUES: eve: [eve]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: eve: [Velar nasal, also initially]
+		W:Hand and Arm - [VALUE: Identity: a single word denotes both 'hand' and 'arm']
+			DIFFERENT VALUES: eve: [Differentiation: one word denotes 'hand' and another, different word denotes 'arm']
+
+
+GLOTTOCODE west2519 has codes fiw (2 params, 1-eth), ndr (23 params, 1-eth)
+	fiw - written status: Primarily oral
+		ID - [VALUE: fiw]
+			DIFFERENT VALUES: ndr: [ndr]
+	ndr - written status: Primarily oral
+		ID - [VALUE: ndr]
+			DIFFERENT VALUES: fiw: [fiw]
+
+
+GLOTTOCODE pula1263 has codes fma (6 params, 1-eth), fus (3 params, 1-eth)
+	fma - written status: Written
+		ID - [VALUE: fma]
+			DIFFERENT VALUES: fus: [fus]
+	fus - written status: Written
+		ID - [VALUE: fus]
+			DIFFERENT VALUES: fma: [fma]
+
+
+GLOTTOCODE west2354 has codes fri (25 params, 1-eth), frw (4 params, 1-eth)
+	fri - written status: Written
+		ID - [VALUE: fri]
+			DIFFERENT VALUES: frw: [frw]
+	frw - written status: Written
+		ID - [VALUE: frw]
+			DIFFERENT VALUES: fri: [fri]
+
+
+GLOTTOCODE bava1246 has codes gau (2 params, 1-eth), gba (2 params, 1-eth), gvi (2 params, 1-eth)
+	gau - written status: Primarily oral
+		ID - [VALUE: gau]
+			DIFFERENT VALUES: gba: [gba] gvi: [gvi]
+	gba - written status: Primarily oral
+		ID - [VALUE: gba]
+			DIFFERENT VALUES: gau: [gau] gvi: [gvi]
+	gvi - written status: Primarily oral
+		ID - [VALUE: gvi]
+			DIFFERENT VALUES: gau: [gau] gba: [gba]
+
+
+GLOTTOCODE stan1295 has codes gbl (2 params, 1-eth), ger (158 params, 1-eth), gha (2 params, 1-eth), gma (2 params, 1-eth), gth (2 params, 1-eth), gti (2 params, 1-eth)
+	gbl - written status: Written
+		ID - [VALUE: gbl]
+			DIFFERENT VALUES: ger: [ger] gha: [gha] gma: [gma] gth: [gth] gti: [gti]
+		W:Distributive Numerals - [VALUE: No distributive numerals]
+			DIFFERENT VALUES: ger: [Marked by preceding word] gti: [Marked by preceding word]
+	ger - written status: Written
+		ID - [VALUE: ger]
+			DIFFERENT VALUES: gbl: [gbl] gha: [gha] gma: [gma] gth: [gth] gti: [gti]
+		W:Distributive Numerals - [VALUE: Marked by preceding word]
+			DIFFERENT VALUES: gbl: [No distributive numerals] gha: [No distributive numerals] gma: [No distributive numerals] gth: [No distributive numerals]
+	gha - written status: Written
+		ID - [VALUE: gha]
+			DIFFERENT VALUES: gbl: [gbl] ger: [ger] gma: [gma] gth: [gth] gti: [gti]
+		W:Distributive Numerals - [VALUE: No distributive numerals]
+			DIFFERENT VALUES: ger: [Marked by preceding word] gti: [Marked by preceding word]
+	gma - written status: Written
+		ID - [VALUE: gma]
+			DIFFERENT VALUES: gbl: [gbl] ger: [ger] gha: [gha] gth: [gth] gti: [gti]
+		W:Distributive Numerals - [VALUE: No distributive numerals]
+			DIFFERENT VALUES: ger: [Marked by preceding word] gti: [Marked by preceding word]
+	gth - written status: Written
+		ID - [VALUE: gth]
+			DIFFERENT VALUES: gbl: [gbl] ger: [ger] gha: [gha] gma: [gma] gti: [gti]
+		W:Distributive Numerals - [VALUE: No distributive numerals]
+			DIFFERENT VALUES: ger: [Marked by preceding word] gti: [Marked by preceding word]
+	gti - written status: Written
+		ID - [VALUE: gti]
+			DIFFERENT VALUES: gbl: [gbl] ger: [ger] gha: [gha] gma: [gma] gth: [gth]
+		W:Distributive Numerals - [VALUE: Marked by preceding word]
+			DIFFERENT VALUES: gbl: [No distributive numerals] gha: [No distributive numerals] gma: [No distributive numerals] gth: [No distributive numerals]
+
+
+GLOTTOCODE guad1242 has codes gdl (2 params, 1-eth), mqc (2 params, 1-eth)
+	gdl - written status: Primarily oral
+		ID - [VALUE: gdl]
+			DIFFERENT VALUES: mqc: [mqc]
+	mqc - written status: Primarily oral
+		ID - [VALUE: mqc]
+			DIFFERENT VALUES: gdl: [gdl]
+
+
+GLOTTOCODE gami1243 has codes gml (2 params, 1-eth), yuw (46 params, 1-eth)
+	gml - written status: Primarily oral
+		ID - [VALUE: gml]
+			DIFFERENT VALUES: yuw: [yuw]
+	yuw - written status: Primarily oral
+		ID - [VALUE: yuw]
+			DIFFERENT VALUES: gml: [gml]
+
+
+GLOTTOCODE kala1399 has codes grw (143 params, 1-eth), gso (3 params, 1-eth)
+	grw - written status: Written
+		ID - [VALUE: grw]
+			DIFFERENT VALUES: gso: [gso]
+	gso - written status: Written
+		ID - [VALUE: gso]
+			DIFFERENT VALUES: grw: [grw]
+
+
+GLOTTOCODE hava1248 has codes hav (2 params, 1-eth), hlp (37 params, 1-eth), yav (9 params, 1-eth)
+	hav - written status: Primarily oral
+		ID - [VALUE: hav]
+			DIFFERENT VALUES: hlp: [hlp] yav: [yav]
+		W:The Velar Nasal - [VALUE: No velar nasal]
+			DIFFERENT VALUES: hlp: [Velar nasal, but not initially]
+	hlp - written status: Primarily oral
+		ID - [VALUE: hlp]
+			DIFFERENT VALUES: hav: [hav] yav: [yav]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: hav: [No velar nasal]
+	yav - written status: Primarily oral
+		ID - [VALUE: yav]
+			DIFFERENT VALUES: hav: [hav] hlp: [hlp]
+
+
+GLOTTOCODE hebr1245 has codes hba (14 params, 1-eth), heb (142 params, 1-eth)
+	hba - written status: Written
+		ID - [VALUE: hba]
+			DIFFERENT VALUES: heb: [heb]
+	heb - written status: Written
+		ID - [VALUE: heb]
+			DIFFERENT VALUES: hba: [hba]
+
+
+GLOTTOCODE halk1245 has codes hli (4 params, 1-eth), hlu (43 params, 1-eth), msq (24 params, 1-eth)
+	hli - written status: Primarily oral
+		ID - [VALUE: hli]
+			DIFFERENT VALUES: hlu: [hlu] msq: [msq]
+	hlu - written status: Primarily oral
+		ID - [VALUE: hlu]
+			DIFFERENT VALUES: hli: [hli] msq: [msq]
+		W:Negative Morphemes - [VALUE: Negative auxiliary verb]
+			DIFFERENT VALUES: msq: [Negative particle]
+	msq - written status: Primarily oral
+		ID - [VALUE: msq]
+			DIFFERENT VALUES: hli: [hli] hlu: [hlu]
+		W:Negative Morphemes - [VALUE: Negative particle]
+			DIFFERENT VALUES: hlu: [Negative auxiliary verb]
+
+
+GLOTTOCODE ital1282 has codes ifi (2 params, 1-eth), ita (82 params, 1-eth)
+	ifi - written status: Written
+		ID - [VALUE: ifi]
+			DIFFERENT VALUES: ita: [ita]
+	ita - written status: Written
+		ID - [VALUE: ita]
+			DIFFERENT VALUES: ifi: [ifi]
+
+
+GLOTTOCODE east2534 has codes ins (5 params, 1-eth), iql (6 params, 1-eth)
+	ins - written status: Primarily oral
+		ID - [VALUE: ins]
+			DIFFERENT VALUES: iql: [iql]
+	iql - written status: Primarily oral
+		ID - [VALUE: iql]
+			DIFFERENT VALUES: ins: [ins]
+
+
+GLOTTOCODE iris1253 has codes ird (14 params, 1-eth), iri (107 params, 1-eth), irm (4 params, 1-eth)
+	ird - written status: Written
+		ID - [VALUE: ird]
+			DIFFERENT VALUES: iri: [iri] irm: [irm]
+	iri - written status: Written
+		ID - [VALUE: iri]
+			DIFFERENT VALUES: ird: [ird] irm: [irm]
+		W:Fixed Stress Locations - [VALUE: Initial: stress is on the first syllable]
+			DIFFERENT VALUES: irm: [No fixed stress (mostly weight-sensitive stress)]
+		W:Weight-Sensitive Stress - [VALUE: Fixed stress (no weight-sensitivity)]
+			DIFFERENT VALUES: irm: [Unbounded: Stress can be anywhere in the word]
+	irm - written status: Written
+		ID - [VALUE: irm]
+			DIFFERENT VALUES: ird: [ird] iri: [iri]
+		W:Fixed Stress Locations - [VALUE: No fixed stress (mostly weight-sensitive stress)]
+			DIFFERENT VALUES: iri: [Initial: stress is on the first syllable]
+		W:Weight-Sensitive Stress - [VALUE: Unbounded: Stress can be anywhere in the word]
+			DIFFERENT VALUES: iri: [Fixed stress (no weight-sensitivity)]
+
+
+GLOTTOCODE krio1252 has codes kfc (6 params, 1-eth), knq (6 params, 1-eth)
+	kfc - written status: Primarily oral
+		ID - [VALUE: kfc]
+			DIFFERENT VALUES: knq: [knq]
+	knq - written status: Primarily oral
+		ID - [VALUE: knq]
+			DIFFERENT VALUES: kfc: [kfc]
+
+
+GLOTTOCODE kirg1245 has codes kfy (2 params, 1-eth), kgz (41 params, 1-eth)
+	kfy - written status: Written
+		ID - [VALUE: kfy]
+			DIFFERENT VALUES: kgz: [kgz]
+		W:The Velar Nasal - [VALUE: No velar nasal]
+			DIFFERENT VALUES: kgz: [Velar nasal, but not initially]
+	kgz - written status: Written
+		ID - [VALUE: kgz]
+			DIFFERENT VALUES: kfy: [kfy]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: kfy: [No velar nasal]
+
+
+GLOTTOCODE kham1282 has codes khd (28 params, 1-eth), knz (25 params, 1-eth)
+	khd - written status: Primarily oral
+		ID - [VALUE: khd]
+			DIFFERENT VALUES: knz: [knz]
+		W:Order of Relative Clause and Noun - [VALUE: Relative clause precedes noun (RelN)]
+			DIFFERENT VALUES: knz: [Relative clause follows noun (NRel)]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Object-verb and relative clause-noun (OV&RelN)]
+			DIFFERENT VALUES: knz: [Object-verb and noun-relative clause (OV&NRel)]
+	knz - written status: Primarily oral
+		ID - [VALUE: knz]
+			DIFFERENT VALUES: khd: [khd]
+		W:Order of Relative Clause and Noun - [VALUE: Relative clause follows noun (NRel)]
+			DIFFERENT VALUES: khd: [Relative clause precedes noun (RelN)]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Object-verb and noun-relative clause (OV&NRel)]
+			DIFFERENT VALUES: khd: [Object-verb and relative clause-noun (OV&RelN)]
+
+
+GLOTTOCODE kalm1243 has codes kiq (2 params, 1-eth), oir (14 params, 1-eth)
+	kiq - written status: Primarily oral
+		ID - [VALUE: kiq]
+			DIFFERENT VALUES: oir: [oir]
+	oir - written status: Primarily oral
+		ID - [VALUE: oir]
+			DIFFERENT VALUES: kiq: [kiq]
+
+
+GLOTTOCODE shah1254 has codes klr (13 params, 1-eth), tls (13 params, 1-eth)
+	klr - written status: Primarily oral
+		ID - [VALUE: klr]
+			DIFFERENT VALUES: tls: [tls]
+	tls - written status: Primarily oral
+		ID - [VALUE: tls]
+			DIFFERENT VALUES: klr: [klr]
+
+
+GLOTTOCODE shon1251 has codes krg (3 params, 1-eth), shn (49 params, 1-eth)
+	krg - written status: Written
+		ID - [VALUE: krg]
+			DIFFERENT VALUES: shn: [shn]
+	shn - written status: Written
+		ID - [VALUE: shn]
+			DIFFERENT VALUES: krg: [krg]
+
+
+GLOTTOCODE kash1274 has codes ksu (2 params, 1-eth), svc (4 params, 1-eth)
+	ksu - written status: Primarily oral
+		ID - [VALUE: ksu]
+			DIFFERENT VALUES: svc: [svc]
+	svc - written status: Primarily oral
+		ID - [VALUE: svc]
+			DIFFERENT VALUES: ksu: [ksu]
+
+
+GLOTTOCODE sema1269 has codes kua (2 params, 0-eth), smd (2 params, 0-eth)
+	kua - written status: missing
+		ID - [VALUE: kua]
+			DIFFERENT VALUES: smd: [smd]
+	smd - written status: missing
+		ID - [VALUE: smd]
+			DIFFERENT VALUES: kua: [kua]
+
+
+GLOTTOCODE mand1415 has codes kug (6 params, 1-eth), mnd (154 params, 1-eth)
+	kug - written status: Written
+		ID - [VALUE: kug]
+			DIFFERENT VALUES: mnd: [mnd]
+		W:Ditransitive Constructions: The Verb 'Give' - [VALUE: Double-object construction]
+			DIFFERENT VALUES: mnd: [Mixed]
+	mnd - written status: Written
+		ID - [VALUE: mnd]
+			DIFFERENT VALUES: kug: [kug]
+		W:Ditransitive Constructions: The Verb 'Give' - [VALUE: Mixed]
+			DIFFERENT VALUES: kug: [Double-object construction]
+
+
+GLOTTOCODE nuuc1236 has codes kyq (29 params, 1-eth), nuu (48 params, 1-eth)
+	kyq - written status: Primarily oral
+		ID - [VALUE: kyq]
+			DIFFERENT VALUES: nuu: [nuu]
+		W:Order of Subject, Object and Verb - [VALUE: Verb-subject-object (VSO)]
+			DIFFERENT VALUES: nuu: [Lacking a dominant word order]
+		W:Order of Degree Word and Adjective - [VALUE: Both orders occur with neither order dominant]
+			DIFFERENT VALUES: nuu: [Degree word follows adjective (AdjDeg)]
+	nuu - written status: Primarily oral
+		ID - [VALUE: nuu]
+			DIFFERENT VALUES: kyq: [kyq]
+		W:Order of Subject, Object and Verb - [VALUE: Lacking a dominant word order]
+			DIFFERENT VALUES: kyq: [Verb-subject-object (VSO)]
+		W:Order of Degree Word and Adjective - [VALUE: Degree word follows adjective (AdjDeg)]
+			DIFFERENT VALUES: kyq: [Both orders occur with neither order dominant]
+
+
+GLOTTOCODE komi1268 has codes kzy (52 params, 1-eth), yzv (5 params, 1-eth)
+	kzy - written status: Primarily oral
+		ID - [VALUE: kzy]
+			DIFFERENT VALUES: yzv: [yzv]
+	yzv - written status: Primarily oral
+		ID - [VALUE: yzv]
+			DIFFERENT VALUES: kzy: [kzy]
+
+
+GLOTTOCODE stra1244 has codes lum (2 params, 1-eth), sch (2 params, 1-eth), sgs (2 params, 1-eth), soo (2 params, 1-eth), sss (4 params, 1-eth), sst (2 params, 1-eth)
+	lum - written status: Primarily oral
+		ID - [VALUE: lum]
+			DIFFERENT VALUES: sch: [sch] sgs: [sgs] soo: [soo] sss: [sss] sst: [sst]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: sss: [Velar nasal, but not initially]
+	sch - written status: Primarily oral
+		ID - [VALUE: sch]
+			DIFFERENT VALUES: lum: [lum] sgs: [sgs] soo: [soo] sss: [sss] sst: [sst]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: sss: [Velar nasal, but not initially]
+	sgs - written status: Primarily oral
+		ID - [VALUE: sgs]
+			DIFFERENT VALUES: lum: [lum] sch: [sch] soo: [soo] sss: [sss] sst: [sst]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: sss: [Velar nasal, but not initially]
+	soo - written status: Primarily oral
+		ID - [VALUE: soo]
+			DIFFERENT VALUES: lum: [lum] sch: [sch] sgs: [sgs] sss: [sss] sst: [sst]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: sss: [Velar nasal, but not initially]
+	sss - written status: Primarily oral
+		ID - [VALUE: sss]
+			DIFFERENT VALUES: lum: [lum] sch: [sch] sgs: [sgs] soo: [soo] sst: [sst]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: lum: [Velar nasal, also initially] sch: [Velar nasal, also initially] sgs: [Velar nasal, also initially] soo: [Velar nasal, also initially]
+	sst - written status: Primarily oral
+		ID - [VALUE: sst]
+			DIFFERENT VALUES: lum: [lum] sch: [sch] sgs: [sgs] soo: [soo] sss: [sss]
+
+
+GLOTTOCODE mand1436 has codes mdk (16 params, 1-eth), mkg (27 params, 1-eth)
+	mdk - written status: Written
+		ID - [VALUE: mdk]
+			DIFFERENT VALUES: mkg: [mkg]
+	mkg - written status: Written
+		ID - [VALUE: mkg]
+			DIFFERENT VALUES: mdk: [mdk]
+
+
+GLOTTOCODE west2443 has codes mdm (27 params, 1-eth), wem (48 params, 1-eth)
+	mdm - written status: Primarily oral
+		ID - [VALUE: mdm]
+			DIFFERENT VALUES: wem: [wem]
+		W:Order of Subject, Object and Verb - [VALUE: Lacking a dominant word order]
+			DIFFERENT VALUES: wem: [Verb-object-subject (VOS)]
+		W:Order of Subject and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: wem: [Subject follows verb (VS)]
+		W:Order of Adposition and Noun Phrase - [VALUE: Prepositions]
+			DIFFERENT VALUES: wem: [More than one adposition type with none dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Verb-object and prepositional (VO&Prep)]
+			DIFFERENT VALUES: wem: [Languages not falling into one of the preceding four types]
+	wem - written status: Primarily oral
+		ID - [VALUE: wem]
+			DIFFERENT VALUES: mdm: [mdm]
+		W:Order of Subject, Object and Verb - [VALUE: Verb-object-subject (VOS)]
+			DIFFERENT VALUES: mdm: [Lacking a dominant word order]
+		W:Order of Subject and Verb - [VALUE: Subject follows verb (VS)]
+			DIFFERENT VALUES: mdm: [Both orders with neither order dominant]
+		W:Order of Adposition and Noun Phrase - [VALUE: More than one adposition type with none dominant]
+			DIFFERENT VALUES: mdm: [Prepositions]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: mdm: [Verb-object and prepositional (VO&Prep)]
+
+
+GLOTTOCODE misi1242 has codes mhl (10 params, 1-eth), msg (37 params, 1-eth)
+	mhl - written status: Written
+		ID - [VALUE: mhl]
+			DIFFERENT VALUES: msg: [msg]
+		W:Position of Case Affixes - [VALUE: Case suffixes]
+			DIFFERENT VALUES: msg: [Postpositional clitics]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: msg: [Modifying adjective precedes noun (AdjN)]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative simultaneously before and after noun]
+			DIFFERENT VALUES: msg: [Demonstrative word precedes noun (DemN)]
+	msg - written status: Written
+		ID - [VALUE: msg]
+			DIFFERENT VALUES: mhl: [mhl]
+		W:Position of Case Affixes - [VALUE: Postpositional clitics]
+			DIFFERENT VALUES: mhl: [Case suffixes]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective precedes noun (AdjN)]
+			DIFFERENT VALUES: mhl: [Modifying adjective follows noun (NAdj)]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative word precedes noun (DemN)]
+			DIFFERENT VALUES: mhl: [Demonstrative simultaneously before and after noun]
+
+
+GLOTTOCODE ngem1255 has codes mkq (5 params, 1-eth), nge (2 params, 1-eth)
+	mkq - written status: Primarily oral
+		ID - [VALUE: mkq]
+			DIFFERENT VALUES: nge: [nge]
+	nge - written status: Primarily oral
+		ID - [VALUE: nge]
+			DIFFERENT VALUES: mkq: [mkq]
+
+
+GLOTTOCODE ngad1258 has codes mrj (2 params, 1-eth), ngj (21 params, 1-eth)
+	mrj - written status: Primarily oral
+		ID - [VALUE: mrj]
+			DIFFERENT VALUES: ngj: [ngj]
+	ngj - written status: Primarily oral
+		ID - [VALUE: ngj]
+			DIFFERENT VALUES: mrj: [mrj]
+
+
+GLOTTOCODE tlah1239 has codes mth (3 params, 1-eth), mxx (20 params, 1-eth)
+	mth - written status: Primarily oral
+		ID - [VALUE: mth]
+			DIFFERENT VALUES: mxx: [mxx]
+	mxx - written status: Primarily oral
+		ID - [VALUE: mxx]
+			DIFFERENT VALUES: mth: [mth]
+
+
+GLOTTOCODE pima1248 has codes nev (32 params, 1-eth), pba (39 params, 1-eth)
+	nev - written status: Primarily oral
+		ID - [VALUE: nev]
+			DIFFERENT VALUES: pba: [pba]
+		W:Prefixing vs. Suffixing in Inflectional Morphology - [VALUE: Approximately equal amounts of suffixing and prefixing]
+			DIFFERENT VALUES: pba: [Moderate preference for suffixing]
+		W:Coding of Nominal Plurality - [VALUE: Plural prefix]
+			DIFFERENT VALUES: pba: [Morphological plural with no method primary]
+		W:Position of Case Affixes - [VALUE: Neither case affixes nor adpositional clitics]
+			DIFFERENT VALUES: pba: [Case suffixes]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Other languages]
+			DIFFERENT VALUES: pba: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: Other SOV with preverbal negative word]
+			DIFFERENT VALUES: pba: [More than one negative construction]
+	pba - written status: Primarily oral
+		ID - [VALUE: pba]
+			DIFFERENT VALUES: nev: [nev]
+		W:Prefixing vs. Suffixing in Inflectional Morphology - [VALUE: Moderate preference for suffixing]
+			DIFFERENT VALUES: nev: [Approximately equal amounts of suffixing and prefixing]
+		W:Coding of Nominal Plurality - [VALUE: Morphological plural with no method primary]
+			DIFFERENT VALUES: nev: [Plural prefix]
+		W:Position of Case Affixes - [VALUE: Case suffixes]
+			DIFFERENT VALUES: nev: [Neither case affixes nor adpositional clitics]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: More than one position for negative morpheme, with none dominant]
+			DIFFERENT VALUES: nev: [Other languages]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: More than one negative construction]
+			DIFFERENT VALUES: nev: [Other SOV with preverbal negative word]
+
+
+GLOTTOCODE nang1259 has codes ngg (15 params, 1-eth), ngk (37 params, 1-eth)
+	ngg - written status: Primarily oral
+		ID - [VALUE: ngg]
+			DIFFERENT VALUES: ngk: [ngk]
+		W:Order of Subject and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: ngk: [Subject precedes verb (SV)]
+		W:Order of Object and Verb - [VALUE: Object precedes verb (OV)]
+			DIFFERENT VALUES: ngk: [Both orders with neither order dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Object-verb and postpositional (OV&Postp)]
+			DIFFERENT VALUES: ngk: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: ngk: [Languages not falling into one of the preceding four types]
+	ngk - written status: Primarily oral
+		ID - [VALUE: ngk]
+			DIFFERENT VALUES: ngg: [ngg]
+		W:Order of Subject and Verb - [VALUE: Subject precedes verb (SV)]
+			DIFFERENT VALUES: ngg: [Both orders with neither order dominant]
+		W:Order of Object and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: ngg: [Object precedes verb (OV)]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: ngg: [Object-verb and postpositional (OV&Postp)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: ngg: [Object-verb and noun-adjective (OV&NAdj)]
+
+
+GLOTTOCODE nort2957 has codes nhn (40 params, 1-eth), nhu (3 params, 1-eth)
+	nhn - written status: Primarily oral
+		ID - [VALUE: nhn]
+			DIFFERENT VALUES: nhu: [nhu]
+	nhu - written status: Primarily oral
+		ID - [VALUE: nhu]
+			DIFFERENT VALUES: nhn: [nhn]
+
+
+GLOTTOCODE cent1990 has codes nic (2 params, 1-eth), nnc (30 params, 1-eth)
+	nic - written status: Primarily oral
+		ID - [VALUE: nic]
+			DIFFERENT VALUES: nnc: [nnc]
+	nnc - written status: Primarily oral
+		ID - [VALUE: nnc]
+			DIFFERENT VALUES: nic: [nic]
+
+
+GLOTTOCODE gily1242 has codes niv (132 params, 1-eth), nvs (7 params, 1-eth)
+	niv - written status: Primarily oral
+		ID - [VALUE: niv]
+			DIFFERENT VALUES: nvs: [nvs]
+	nvs - written status: Primarily oral
+		ID - [VALUE: nvs]
+			DIFFERENT VALUES: niv: [niv]
+
+
+GLOTTOCODE tuva1244 has codes nnm (3 params, 1-eth), tvl (61 params, 1-eth)
+	nnm - written status: Written
+		ID - [VALUE: nnm]
+			DIFFERENT VALUES: tvl: [tvl]
+	tvl - written status: Written
+		ID - [VALUE: tvl]
+			DIFFERENT VALUES: nnm: [nnm]
+
+
+GLOTTOCODE noga1249 has codes nog (18 params, 1-eth), nok (2 params, 1-eth), tlb (2 params, 1-eth), yta (2 params, 1-eth)
+	nog - written status: Written
+		ID - [VALUE: nog]
+			DIFFERENT VALUES: nok: [nok] tlb: [tlb] yta: [yta]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: yta: [No velar nasal]
+	nok - written status: Written
+		ID - [VALUE: nok]
+			DIFFERENT VALUES: nog: [nog] tlb: [tlb] yta: [yta]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: yta: [No velar nasal]
+	tlb - written status: Written
+		ID - [VALUE: tlb]
+			DIFFERENT VALUES: nog: [nog] nok: [nok] yta: [yta]
+		W:The Velar Nasal - [VALUE: Velar nasal, but not initially]
+			DIFFERENT VALUES: yta: [No velar nasal]
+	yta - written status: Written
+		ID - [VALUE: yta]
+			DIFFERENT VALUES: nog: [nog] nok: [nok] tlb: [tlb]
+		W:The Velar Nasal - [VALUE: No velar nasal]
+			DIFFERENT VALUES: nog: [Velar nasal, but not initially] nok: [Velar nasal, but not initially] tlb: [Velar nasal, but not initially]
+
+
+GLOTTOCODE occi1239 has codes occ (7 params, 1-eth), pro (2 params, 1-eth)
+	occ - written status: Written
+		ID - [VALUE: occ]
+			DIFFERENT VALUES: pro: [pro]
+	pro - written status: Written
+		ID - [VALUE: pro]
+			DIFFERENT VALUES: occ: [occ]
+
+
+GLOTTOCODE ngaj1237 has codes olm (5 params, 1-eth), plp (4 params, 1-eth)
+	olm - written status: Primarily oral
+		ID - [VALUE: olm]
+			DIFFERENT VALUES: plp: [plp]
+	plp - written status: Primarily oral
+		ID - [VALUE: plp]
+			DIFFERENT VALUES: olm: [olm]
+
+
+GLOTTOCODE pitj1243 has codes pit (97 params, 1-eth), wdo (14 params, 1-eth)
+	pit - written status: Primarily oral
+		ID - [VALUE: pit]
+			DIFFERENT VALUES: wdo: [wdo]
+	wdo - written status: Primarily oral
+		ID - [VALUE: wdo]
+			DIFFERENT VALUES: pit: [pit]
+
+
+GLOTTOCODE balk1252 has codes rav (5 params, 1-eth), rbu (2 params, 1-eth), rse (3 params, 1-eth)
+	rav - written status: Written
+		ID - [VALUE: rav]
+			DIFFERENT VALUES: rbu: [rbu] rse: [rse]
+	rbu - written status: Written
+		ID - [VALUE: rbu]
+			DIFFERENT VALUES: rav: [rav] rse: [rse]
+	rse - written status: Written
+		ID - [VALUE: rse]
+			DIFFERENT VALUES: rav: [rav] rbu: [rbu]
+
+
+GLOTTOCODE vlax1238 has codes rka (14 params, 1-eth), rlo (2 params, 1-eth)
+	rka - written status: Primarily oral
+		ID - [VALUE: rka]
+			DIFFERENT VALUES: rlo: [rlo]
+		W:Tea - [VALUE: Others]
+			DIFFERENT VALUES: rlo: [Words derived from Min Nan Chinese te]
+	rlo - written status: Primarily oral
+		ID - [VALUE: rlo]
+			DIFFERENT VALUES: rka: [rka]
+		W:Tea - [VALUE: Words derived from Min Nan Chinese te]
+			DIFFERENT VALUES: rka: [Others]
+
+
+GLOTTOCODE roma1326 has codes rmc (4 params, 1-eth), rsc (14 params, 1-eth), rsm (4 params, 1-eth), rsu (24 params, 1-eth)
+	rmc - written status: Written
+		ID - [VALUE: rmc]
+			DIFFERENT VALUES: rsc: [rsc] rsm: [rsm] rsu: [rsu]
+	rsc - written status: Written
+		ID - [VALUE: rsc]
+			DIFFERENT VALUES: rmc: [rmc] rsm: [rsm] rsu: [rsu]
+	rsm - written status: Written
+		ID - [VALUE: rsm]
+			DIFFERENT VALUES: rmc: [rmc] rsc: [rsc] rsu: [rsu]
+	rsu - written status: Written
+		ID - [VALUE: rsu]
+			DIFFERENT VALUES: rmc: [rmc] rsc: [rsc] rsm: [rsm]
+
+
+GLOTTOCODE tibe1272 has codes rpa (15 params, 1-eth), tdi (9 params, 1-eth), tdr (23 params, 1-eth), tib (75 params, 1-eth), tis (22 params, 1-eth), tmo (33 params, 1-eth)
+	rpa - written status: Written
+		ID - [VALUE: rpa]
+			DIFFERENT VALUES: tdi: [tdi] tdr: [tdr] tib: [tib] tis: [tis] tmo: [tmo]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective precedes noun (AdjN)]
+			DIFFERENT VALUES: tdi: [Modifying adjective follows noun (NAdj)] tdr: [Modifying adjective follows noun (NAdj)] tib: [Modifying adjective follows noun (NAdj)] tis: [Both orders of noun and modifying adjective occur, with neither dominant] tmo: [Modifying adjective follows noun (NAdj)]
+		W:Order of Numeral and Noun - [VALUE: Numeral precedes noun (NumN)]
+			DIFFERENT VALUES: tdi: [Numeral follows noun (NNum)] tdr: [Numeral follows noun (NNum)] tib: [Numeral follows noun (NNum)] tis: [Numeral follows noun (NNum)] tmo: [Numeral follows noun (NNum)]
+		W:Order of Degree Word and Adjective - [VALUE: Degree word precedes adjective (DegAdj)]
+			DIFFERENT VALUES: tib: [Degree word follows adjective (AdjDeg)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and adjective-noun (OV&AdjN)]
+			DIFFERENT VALUES: tdi: [Object-verb and noun-adjective (OV&NAdj)] tdr: [Object-verb and noun-adjective (OV&NAdj)] tib: [Object-verb and noun-adjective (OV&NAdj)] tis: [Languages not falling into one of the preceding four types] tmo: [Object-verb and noun-adjective (OV&NAdj)]
+		W:Order of Negative Morpheme and Verb - [VALUE: NegV]
+			DIFFERENT VALUES: tdr: [[Neg-V]] tib: [[Neg-V]] tis: [[Neg-V]] tmo: [Type 1 / Type 2]
+		W:Preverbal Negative Morphemes - [VALUE: Preverbal negative word]
+			DIFFERENT VALUES: tdr: [Negative prefix] tib: [Negative prefix] tis: [Negative prefix]
+		W:Postverbal Negative Morphemes - [VALUE: No postverbal negative morpheme]
+			DIFFERENT VALUES: tmo: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Other languages]
+			DIFFERENT VALUES: tdr: [Morphological negation only (but not double negation)] tib: [Morphological negation only (but not double negation)] tis: [Morphological negation only (but not double negation)] tmo: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: Other SOV with preverbal negative word]
+			DIFFERENT VALUES: tdr: [SO[Neg-V]] tib: [SO[Neg-V]] tis: [SV & OV & negative prefix] tmo: [More than one negative construction]
+		W:SOVNeg Order - [VALUE: SOV, but SOVNeg does not occur]
+			DIFFERENT VALUES: tmo: [Separate word, no double negation]
+	tdi - written status: Written
+		ID - [VALUE: tdi]
+			DIFFERENT VALUES: rpa: [rpa] tdr: [tdr] tib: [tib] tis: [tis] tmo: [tmo]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: rpa: [Modifying adjective precedes noun (AdjN)] tis: [Both orders of noun and modifying adjective occur, with neither dominant]
+		W:Order of Demonstrative and Noun - [VALUE: Two or more of above types with none dominant]
+			DIFFERENT VALUES: tdr: [Demonstrative word follows noun (NDem)] tib: [Demonstrative word follows noun (NDem)] tmo: [Demonstrative word follows noun (NDem)]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: rpa: [Numeral precedes noun (NumN)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: rpa: [Object-verb and adjective-noun (OV&AdjN)] tis: [Languages not falling into one of the preceding four types]
+	tdr - written status: Written
+		ID - [VALUE: tdr]
+			DIFFERENT VALUES: rpa: [rpa] tdi: [tdi] tib: [tib] tis: [tis] tmo: [tmo]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: rpa: [Modifying adjective precedes noun (AdjN)] tis: [Both orders of noun and modifying adjective occur, with neither dominant]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative word follows noun (NDem)]
+			DIFFERENT VALUES: tdi: [Two or more of above types with none dominant]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: rpa: [Numeral precedes noun (NumN)]
+		W:Order of Relative Clause and Noun - [VALUE: Mixed types of relative clause with none dominant]
+			DIFFERENT VALUES: tib: [Relative clause precedes noun (RelN)] tmo: [Relative clause precedes noun (RelN)]
+		W:Prenominal relative clauses - [VALUE: RelN or NRel]
+			DIFFERENT VALUES: tib: [Relative clause-Noun (RelN) dominant] tis: [RelN or internally-headed] tmo: [Relative clause-Noun (RelN) dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: tib: [Object-verb and relative clause-noun (OV&RelN)] tmo: [Object-verb and relative clause-noun (OV&RelN)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: rpa: [Object-verb and adjective-noun (OV&AdjN)] tis: [Languages not falling into one of the preceding four types]
+		W:Negative Morphemes - [VALUE: Negative affix]
+			DIFFERENT VALUES: tmo: [Negative particle]
+		W:Order of Negative Morpheme and Verb - [VALUE: [Neg-V]]
+			DIFFERENT VALUES: rpa: [NegV] tmo: [Type 1 / Type 2]
+		W:Preverbal Negative Morphemes - [VALUE: Negative prefix]
+			DIFFERENT VALUES: rpa: [Preverbal negative word] tmo: [Preverbal negative word]
+		W:Postverbal Negative Morphemes - [VALUE: No postverbal negative morpheme]
+			DIFFERENT VALUES: tmo: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Morphological negation only (but not double negation)]
+			DIFFERENT VALUES: rpa: [Other languages] tmo: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SO[Neg-V]]
+			DIFFERENT VALUES: rpa: [Other SOV with preverbal negative word] tis: [SV & OV & negative prefix] tmo: [More than one negative construction]
+		W:SOVNeg Order - [VALUE: SOV, but SOVNeg does not occur]
+			DIFFERENT VALUES: tmo: [Separate word, no double negation]
+	tib - written status: Written
+		ID - [VALUE: tib]
+			DIFFERENT VALUES: rpa: [rpa] tdi: [tdi] tdr: [tdr] tis: [tis] tmo: [tmo]
+		W:Occurrence of Nominal Plurality - [VALUE: Plural in all nouns, always optional]
+			DIFFERENT VALUES: tis: [No nominal plural]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: rpa: [Modifying adjective precedes noun (AdjN)] tis: [Both orders of noun and modifying adjective occur, with neither dominant]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative word follows noun (NDem)]
+			DIFFERENT VALUES: tdi: [Two or more of above types with none dominant]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: rpa: [Numeral precedes noun (NumN)]
+		W:Order of Relative Clause and Noun - [VALUE: Relative clause precedes noun (RelN)]
+			DIFFERENT VALUES: tdr: [Mixed types of relative clause with none dominant] tis: [Mixed types of relative clause with none dominant]
+		W:Prenominal relative clauses - [VALUE: Relative clause-Noun (RelN) dominant]
+			DIFFERENT VALUES: tdr: [RelN or NRel] tis: [RelN or internally-headed]
+		W:Order of Degree Word and Adjective - [VALUE: Degree word follows adjective (AdjDeg)]
+			DIFFERENT VALUES: rpa: [Degree word precedes adjective (DegAdj)]
+		W:Position of Polar Question Particles - [VALUE: Question particle at end of sentence]
+			DIFFERENT VALUES: tmo: [No question particle]
+		W:Order of Adverbial Subordinator and Clause - [VALUE: Adverbial subordinators which are separate words and which appear at the end of the subordinate clause]
+			DIFFERENT VALUES: tmo: [More than one type of adverbial subordinators with none dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Object-verb and relative clause-noun (OV&RelN)]
+			DIFFERENT VALUES: tdr: [Languages not falling into one of the preceding four types] tis: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: rpa: [Object-verb and adjective-noun (OV&AdjN)] tis: [Languages not falling into one of the preceding four types]
+		W:Negative Morphemes - [VALUE: Negative affix]
+			DIFFERENT VALUES: tmo: [Negative particle]
+		W:Polar Questions - [VALUE: Question particle]
+			DIFFERENT VALUES: tmo: [Interrogative verb morphology]
+		W:Order of Negative Morpheme and Verb - [VALUE: [Neg-V]]
+			DIFFERENT VALUES: rpa: [NegV] tmo: [Type 1 / Type 2]
+		W:Preverbal Negative Morphemes - [VALUE: Negative prefix]
+			DIFFERENT VALUES: rpa: [Preverbal negative word] tmo: [Preverbal negative word]
+		W:Postverbal Negative Morphemes - [VALUE: No postverbal negative morpheme]
+			DIFFERENT VALUES: tmo: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Morphological negation only (but not double negation)]
+			DIFFERENT VALUES: rpa: [Other languages] tmo: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SO[Neg-V]]
+			DIFFERENT VALUES: rpa: [Other SOV with preverbal negative word] tis: [SV & OV & negative prefix] tmo: [More than one negative construction]
+		W:SOVNeg Order - [VALUE: SOV, but SOVNeg does not occur]
+			DIFFERENT VALUES: tmo: [Separate word, no double negation]
+	tis - written status: Written
+		ID - [VALUE: tis]
+			DIFFERENT VALUES: rpa: [rpa] tdi: [tdi] tdr: [tdr] tib: [tib] tmo: [tmo]
+		W:Occurrence of Nominal Plurality - [VALUE: No nominal plural]
+			DIFFERENT VALUES: tib: [Plural in all nouns, always optional]
+		W:Order of Adjective and Noun - [VALUE: Both orders of noun and modifying adjective occur, with neither dominant]
+			DIFFERENT VALUES: rpa: [Modifying adjective precedes noun (AdjN)] tdi: [Modifying adjective follows noun (NAdj)] tdr: [Modifying adjective follows noun (NAdj)] tib: [Modifying adjective follows noun (NAdj)] tmo: [Modifying adjective follows noun (NAdj)]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: rpa: [Numeral precedes noun (NumN)]
+		W:Order of Relative Clause and Noun - [VALUE: Mixed types of relative clause with none dominant]
+			DIFFERENT VALUES: tib: [Relative clause precedes noun (RelN)] tmo: [Relative clause precedes noun (RelN)]
+		W:Prenominal relative clauses - [VALUE: RelN or internally-headed]
+			DIFFERENT VALUES: tdr: [RelN or NRel] tib: [Relative clause-Noun (RelN) dominant] tmo: [Relative clause-Noun (RelN) dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: tib: [Object-verb and relative clause-noun (OV&RelN)] tmo: [Object-verb and relative clause-noun (OV&RelN)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: rpa: [Object-verb and adjective-noun (OV&AdjN)] tdi: [Object-verb and noun-adjective (OV&NAdj)] tdr: [Object-verb and noun-adjective (OV&NAdj)] tib: [Object-verb and noun-adjective (OV&NAdj)] tmo: [Object-verb and noun-adjective (OV&NAdj)]
+		W:Negative Morphemes - [VALUE: Negative affix]
+			DIFFERENT VALUES: tmo: [Negative particle]
+		W:Order of Negative Morpheme and Verb - [VALUE: [Neg-V]]
+			DIFFERENT VALUES: rpa: [NegV] tmo: [Type 1 / Type 2]
+		W:Preverbal Negative Morphemes - [VALUE: Negative prefix]
+			DIFFERENT VALUES: rpa: [Preverbal negative word] tmo: [Preverbal negative word]
+		W:Postverbal Negative Morphemes - [VALUE: No postverbal negative morpheme]
+			DIFFERENT VALUES: tmo: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: Morphological negation only (but not double negation)]
+			DIFFERENT VALUES: rpa: [Other languages] tmo: [More than one position for negative morpheme, with none dominant]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: SV & OV & negative prefix]
+			DIFFERENT VALUES: rpa: [Other SOV with preverbal negative word] tdr: [SO[Neg-V]] tib: [SO[Neg-V]] tmo: [More than one negative construction]
+	tmo - written status: Written
+		ID - [VALUE: tmo]
+			DIFFERENT VALUES: rpa: [rpa] tdi: [tdi] tdr: [tdr] tib: [tib] tis: [tis]
+		W:Order of Adjective and Noun - [VALUE: Modifying adjective follows noun (NAdj)]
+			DIFFERENT VALUES: rpa: [Modifying adjective precedes noun (AdjN)] tis: [Both orders of noun and modifying adjective occur, with neither dominant]
+		W:Order of Demonstrative and Noun - [VALUE: Demonstrative word follows noun (NDem)]
+			DIFFERENT VALUES: tdi: [Two or more of above types with none dominant]
+		W:Order of Numeral and Noun - [VALUE: Numeral follows noun (NNum)]
+			DIFFERENT VALUES: rpa: [Numeral precedes noun (NumN)]
+		W:Order of Relative Clause and Noun - [VALUE: Relative clause precedes noun (RelN)]
+			DIFFERENT VALUES: tdr: [Mixed types of relative clause with none dominant] tis: [Mixed types of relative clause with none dominant]
+		W:Prenominal relative clauses - [VALUE: Relative clause-Noun (RelN) dominant]
+			DIFFERENT VALUES: tdr: [RelN or NRel] tis: [RelN or internally-headed]
+		W:Position of Polar Question Particles - [VALUE: No question particle]
+			DIFFERENT VALUES: tib: [Question particle at end of sentence]
+		W:Order of Adverbial Subordinator and Clause - [VALUE: More than one type of adverbial subordinators with none dominant]
+			DIFFERENT VALUES: tib: [Adverbial subordinators which are separate words and which appear at the end of the subordinate clause]
+		W:Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun - [VALUE: Object-verb and relative clause-noun (OV&RelN)]
+			DIFFERENT VALUES: tdr: [Languages not falling into one of the preceding four types] tis: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Object-verb and noun-adjective (OV&NAdj)]
+			DIFFERENT VALUES: rpa: [Object-verb and adjective-noun (OV&AdjN)] tis: [Languages not falling into one of the preceding four types]
+		W:Negative Morphemes - [VALUE: Negative particle]
+			DIFFERENT VALUES: tdr: [Negative affix] tib: [Negative affix] tis: [Negative affix]
+		W:Polar Questions - [VALUE: Interrogative verb morphology]
+			DIFFERENT VALUES: tib: [Question particle]
+		W:Order of Negative Morpheme and Verb - [VALUE: Type 1 / Type 2]
+			DIFFERENT VALUES: rpa: [NegV] tdr: [[Neg-V]] tib: [[Neg-V]] tis: [[Neg-V]]
+		W:Preverbal Negative Morphemes - [VALUE: Preverbal negative word]
+			DIFFERENT VALUES: tdr: [Negative prefix] tib: [Negative prefix] tis: [Negative prefix]
+		W:Postverbal Negative Morphemes - [VALUE: Postverbal negative word]
+			DIFFERENT VALUES: rpa: [No postverbal negative morpheme] tdr: [No postverbal negative morpheme] tib: [No postverbal negative morpheme] tis: [No postverbal negative morpheme]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: More than one position for negative morpheme, with none dominant]
+			DIFFERENT VALUES: rpa: [Other languages] tdr: [Morphological negation only (but not double negation)] tib: [Morphological negation only (but not double negation)] tis: [Morphological negation only (but not double negation)]
+		W:The Position of Negative Morphemes in SOV Languages - [VALUE: More than one negative construction]
+			DIFFERENT VALUES: rpa: [Other SOV with preverbal negative word] tdr: [SO[Neg-V]] tib: [SO[Neg-V]] tis: [SV & OV & negative prefix]
+		W:SOVNeg Order - [VALUE: Separate word, no double negation]
+			DIFFERENT VALUES: rpa: [SOV, but SOVNeg does not occur] tdr: [SOV, but SOVNeg does not occur] tib: [SOV, but SOVNeg does not occur]
+
+
+GLOTTOCODE shos1248 has codes sho (21 params, 1-eth), swr (2 params, 1-eth)
+	sho - written status: Primarily oral
+		ID - [VALUE: sho]
+			DIFFERENT VALUES: swr: [swr]
+	swr - written status: Primarily oral
+		ID - [VALUE: swr]
+			DIFFERENT VALUES: sho: [sho]
+
+
+GLOTTOCODE stan1288 has codes spa (156 params, 1-eth), spc (2 params, 1-eth)
+	spa - written status: Written
+		ID - [VALUE: spa]
+			DIFFERENT VALUES: spc: [spc]
+	spc - written status: Written
+		ID - [VALUE: spc]
+			DIFFERENT VALUES: spa: [spa]
+
+
+GLOTTOCODE swed1254 has codes swe (79 params, 1-eth), swv (2 params, 1-eth)
+	swe - written status: Written
+		ID - [VALUE: swe]
+			DIFFERENT VALUES: swv: [swv]
+	swv - written status: Written
+		ID - [VALUE: swv]
+			DIFFERENT VALUES: swe: [swe]
+
+
+GLOTTOCODE tigr1270 has codes tbe (3 params, 1-eth), tgr (66 params, 1-eth)
+	tbe - written status: Written
+		ID - [VALUE: tbe]
+			DIFFERENT VALUES: tgr: [tgr]
+	tgr - written status: Written
+		ID - [VALUE: tgr]
+			DIFFERENT VALUES: tbe: [tbe]
+
+
+GLOTTOCODE tewa1260 has codes tew (4 params, 1-eth), trg (3 params, 1-eth), tsj (3 params, 1-eth)
+	tew - written status: Primarily oral
+		ID - [VALUE: tew]
+			DIFFERENT VALUES: trg: [trg] tsj: [tsj]
+		W:Semantic Distinctions of Evidentiality - [VALUE: Only indirect evidentials]
+			DIFFERENT VALUES: trg: [No grammatical evidentials]
+		W:Coding of Evidentiality - [VALUE: Separate particle]
+			DIFFERENT VALUES: trg: [No grammatical evidentials]
+	trg - written status: Primarily oral
+		ID - [VALUE: trg]
+			DIFFERENT VALUES: tew: [tew] tsj: [tsj]
+		W:Semantic Distinctions of Evidentiality - [VALUE: No grammatical evidentials]
+			DIFFERENT VALUES: tew: [Only indirect evidentials]
+		W:Coding of Evidentiality - [VALUE: No grammatical evidentials]
+			DIFFERENT VALUES: tew: [Separate particle]
+	tsj - written status: Primarily oral
+		ID - [VALUE: tsj]
+			DIFFERENT VALUES: tew: [tew] trg: [trg]
+
+
+GLOTTOCODE khor1269 has codes tex (2 params, 1-eth), twx (2 params, 1-eth)
+	tex - written status: Written
+		ID - [VALUE: tex]
+			DIFFERENT VALUES: twx: [twx]
+	twx - written status: Written
+		ID - [VALUE: twx]
+			DIFFERENT VALUES: tex: [tex]
+
+
+GLOTTOCODE taha1241 has codes tgh (21 params, 1-eth), tug (25 params, 1-eth)
+	tgh - written status: Primarily oral
+		ID - [VALUE: tgh]
+			DIFFERENT VALUES: tug: [tug]
+	tug - written status: Primarily oral
+		ID - [VALUE: tug]
+			DIFFERENT VALUES: tgh: [tgh]
+
+
+GLOTTOCODE tata1255 has codes tmi (2 params, 1-eth), ttb (2 params, 1-eth), tvo (45 params, 1-eth)
+	tmi - written status: Written
+		ID - [VALUE: tmi]
+			DIFFERENT VALUES: ttb: [ttb] tvo: [tvo]
+	ttb - written status: Written
+		ID - [VALUE: ttb]
+			DIFFERENT VALUES: tmi: [tmi] tvo: [tvo]
+	tvo - written status: Written
+		ID - [VALUE: tvo]
+			DIFFERENT VALUES: tmi: [tmi] ttb: [ttb]
+
+
+GLOTTOCODE tami1289 has codes tml (84 params, 1-eth), tsp (2 params, 1-eth)
+	tml - written status: Written
+		ID - [VALUE: tml]
+			DIFFERENT VALUES: tsp: [tsp]
+	tsp - written status: Written
+		ID - [VALUE: tsp]
+			DIFFERENT VALUES: tml: [tml]
+
+
+GLOTTOCODE tzel1254 has codes tza (14 params, 1-eth), tze (5 params, 1-eth), tzt (3 params, 1-eth)
+	tza - written status: Written
+		ID - [VALUE: tza]
+			DIFFERENT VALUES: tze: [tze] tzt: [tzt]
+	tze - written status: Written
+		ID - [VALUE: tze]
+			DIFFERENT VALUES: tza: [tza] tzt: [tzt]
+	tzt - written status: Written
+		ID - [VALUE: tzt]
+			DIFFERENT VALUES: tza: [tza] tze: [tze]
+
+
+GLOTTOCODE wels1247 has codes wec (15 params, 1-eth), wel (70 params, 1-eth)
+	wec - written status: Written
+		ID - [VALUE: wec]
+			DIFFERENT VALUES: wel: [wel]
+		W:Order of Negative Morpheme and Verb - [VALUE: VNeg]
+			DIFFERENT VALUES: wel: [NegV]
+		W:Preverbal Negative Morphemes - [VALUE: No preverbal negative morpheme]
+			DIFFERENT VALUES: wel: [Preverbal negative word]
+		W:Postverbal Negative Morphemes - [VALUE: Postverbal negative word]
+			DIFFERENT VALUES: wel: [No postverbal negative morpheme]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: VSNegO]
+			DIFFERENT VALUES: wel: [NegVSO]
+		W:Position of negative words relative to beginning and end of clause and with respect to adjacency to verb - [VALUE: Following verb, separated from verb, but not at end of clause]
+			DIFFERENT VALUES: wel: [Immediately preverbal]
+		W:The Position of Negative Morphemes in Verb-Initial Languages - [VALUE: VSNegO]
+			DIFFERENT VALUES: wel: [NegVSO]
+		W:Verb-Initial with Preverbal Negative - [VALUE: Verb-initial but preverbal negative does not occur]
+			DIFFERENT VALUES: wel: [Separate word, no double negation  Word&NoDoubleNeg]
+		W:Verb-Initial with Negative that is Immediately Postverbal or between Subject and Object - [VALUE: Separate word, between subject and object]
+			DIFFERENT VALUES: wel: [Verb-initial but immediately postverbal negative or negative between subject and object does not occur]
+	wel - written status: Written
+		ID - [VALUE: wel]
+			DIFFERENT VALUES: wec: [wec]
+		W:Order of Negative Morpheme and Verb - [VALUE: NegV]
+			DIFFERENT VALUES: wec: [VNeg]
+		W:Preverbal Negative Morphemes - [VALUE: Preverbal negative word]
+			DIFFERENT VALUES: wec: [No preverbal negative morpheme]
+		W:Postverbal Negative Morphemes - [VALUE: No postverbal negative morpheme]
+			DIFFERENT VALUES: wec: [Postverbal negative word]
+		W:Position of Negative Word With Respect to Subject, Object, and Verb - [VALUE: NegVSO]
+			DIFFERENT VALUES: wec: [VSNegO]
+		W:Position of negative words relative to beginning and end of clause and with respect to adjacency to verb - [VALUE: Immediately preverbal]
+			DIFFERENT VALUES: wec: [Following verb, separated from verb, but not at end of clause]
+		W:The Position of Negative Morphemes in Verb-Initial Languages - [VALUE: NegVSO]
+			DIFFERENT VALUES: wec: [VSNegO]
+		W:Verb-Initial with Preverbal Negative - [VALUE: Separate word, no double negation  Word&NoDoubleNeg]
+			DIFFERENT VALUES: wec: [Verb-initial but preverbal negative does not occur]
+		W:Verb-Initial with Negative that is Immediately Postverbal or between Subject and Object - [VALUE: Verb-initial but immediately postverbal negative or negative between subject and object does not occur]
+			DIFFERENT VALUES: wec: [Separate word, between subject and object]
+
+
+GLOTTOCODE yoku1256 has codes wik (36 params, 1-eth), yok (32 params, 1-eth), ywl (35 params, 1-eth)
+	wik - written status: Primarily oral
+		ID - [VALUE: wik]
+			DIFFERENT VALUES: yok: [yok] ywl: [ywl]
+		W:Order of Subject and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: yok: [Subject follows verb (VS)]
+		W:Order of Object and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: yok: [Object follows verb (VO)] ywl: [Object follows verb (VO)]
+		W:Order of Genitive and Noun - [VALUE: Genitive-noun (GenN)]
+			DIFFERENT VALUES: yok: [Both orders occur with neither order dominant]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: yok: [Verb-object and prepositional (VO&Prep)]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Languages not falling into one of the preceding four types]
+			DIFFERENT VALUES: yok: [Verb-object and adjective-noun (VO&AdjN)]
+	yok - written status: Primarily oral
+		ID - [VALUE: yok]
+			DIFFERENT VALUES: wik: [wik] ywl: [ywl]
+		W:Order of Subject and Verb - [VALUE: Subject follows verb (VS)]
+			DIFFERENT VALUES: wik: [Both orders with neither order dominant] ywl: [Both orders with neither order dominant]
+		W:Order of Object and Verb - [VALUE: Object follows verb (VO)]
+			DIFFERENT VALUES: wik: [Both orders with neither order dominant]
+		W:Order of Genitive and Noun - [VALUE: Both orders occur with neither order dominant]
+			DIFFERENT VALUES: wik: [Genitive-noun (GenN)]
+		W:Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase - [VALUE: Verb-object and prepositional (VO&Prep)]
+			DIFFERENT VALUES: wik: [Languages not falling into one of the preceding four types]
+		W:Relationship between the Order of Object and Verb and the Order of Adjective and Noun - [VALUE: Verb-object and adjective-noun (VO&AdjN)]
+			DIFFERENT VALUES: wik: [Languages not falling into one of the preceding four types]
+	ywl - written status: Primarily oral
+		ID - [VALUE: ywl]
+			DIFFERENT VALUES: wik: [wik] yok: [yok]
+		W:Order of Subject and Verb - [VALUE: Both orders with neither order dominant]
+			DIFFERENT VALUES: yok: [Subject follows verb (VS)]
+		W:Order of Object and Verb - [VALUE: Object follows verb (VO)]
+			DIFFERENT VALUES: wik: [Both orders with neither order dominant]
+
+
+GLOTTOCODE cent2127 has codes ych (5 params, 1-eth), ypk (84 params, 1-eth), yun (5 params, 1-eth)
+	ych - written status: Written
+		ID - [VALUE: ych]
+			DIFFERENT VALUES: ypk: [ypk] yun: [yun]
+	ypk - written status: Written
+		ID - [VALUE: ypk]
+			DIFFERENT VALUES: ych: [ych] yun: [yun]
+	yun - written status: Written
+		ID - [VALUE: yun]
+			DIFFERENT VALUES: ych: [ych] ypk: [ypk]
+
+
+GLOTTOCODE east2295 has codes ydb (2 params, 1-eth), ydd (3 params, 1-eth), ydl (2 params, 1-eth), ylt (2 params, 1-eth)
+	ydb - written status: Written
+		ID - [VALUE: ydb]
+			DIFFERENT VALUES: ydd: [ydd] ydl: [ydl] ylt: [ylt]
+	ydd - written status: Written
+		ID - [VALUE: ydd]
+			DIFFERENT VALUES: ydb: [ydb] ydl: [ydl] ylt: [ylt]
+	ydl - written status: Written
+		ID - [VALUE: ydl]
+			DIFFERENT VALUES: ydb: [ydb] ydd: [ydd] ylt: [ylt]
+	ylt - written status: Written
+		ID - [VALUE: ylt]
+			DIFFERENT VALUES: ydb: [ydb] ydd: [ydd] ydl: [ydl]
+
+
+GLOTTOCODE cent2128 has codes ysl (5 params, 1-eth), yus (33 params, 1-eth)
+	ysl - written status: Primarily oral
+		ID - [VALUE: ysl]
+			DIFFERENT VALUES: yus: [yus]
+	yus - written status: Primarily oral
+		ID - [VALUE: yus]
+			DIFFERENT VALUES: ysl: [ysl]
+
+
+GLOTTOCODE zulu1248 has codes zno (2 params, 1-eth), zso (2 params, 1-eth), zul (143 params, 1-eth)
+	zno - written status: Written
+		ID - [VALUE: zno]
+			DIFFERENT VALUES: zso: [zso] zul: [zul]
+		W:The Velar Nasal - [VALUE: Velar nasal, also initially]
+			DIFFERENT VALUES: zso: [No velar nasal]
+	zso - written status: Written
+		ID - [VALUE: zso]
+			DIFFERENT VALUES: zno: [zno] zul: [zul]
+		W:The Velar Nasal - [VALUE: No velar nasal]
+			DIFFERENT VALUES: zno: [Velar nasal, also initially]
+	zul - written status: Written
+		ID - [VALUE: zul]
+			DIFFERENT VALUES: zno: [zno] zso: [zso]
+
+
