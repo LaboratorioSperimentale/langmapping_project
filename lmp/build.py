@@ -79,7 +79,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 	# logging.info(f"Total number of ISO codes found in WALS: {len(glotto_wals)}")
 
-	logging.info(f"Number of languages with more than one isocode per glottocode: {len([x for x in glotto_wals if len(glotto_wals[x]) > 1])}")
+	logging.info(f"Number of glottocodes with more than one wals code per glottocode: {len([x for x in glotto_wals if len(glotto_wals[x]) > 1])}")
 
 	u.print_analysis_glottowals(glotto_wals, ethnologue, output_dir)
 
@@ -108,7 +108,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		if not value == "?":
 			parameters[f"G:{grambank_parameters[parameter]['Name']}"]+=1
 
-#fino a qui, sono stati caricati tutti i database utili
+	#fino a qui, sono stati caricati tutti i database utili
 
 	logging.info("Building complete set of languages...")
 	glottocodes_zero_params = 0
@@ -126,6 +126,10 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		# glotto wals 1
 		if glottocode in glotto_wals:
 			found_params = True
+
+			# if glottocode == "ital1282":
+			# 	for lang in glotto_wals[glottocode]:
+			# 		print(lang)
 
 			# VERSION 1: we just take the one with the most parameters
 			# max_index = 0
@@ -152,8 +156,14 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 					new_lang.update(lang)
 					complete_lang.append(new_lang)
 
+				
+
 			lang = glotto_wals[glottocode][0]
 			complete_lang[0].update(lang)
+
+			# if glottocode == "ital1282":
+			# 	for lang in complete_lang:
+			# 		print(lang)
 
 			del glotto_wals[glottocode]
 
@@ -186,11 +196,13 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		# 		del glotto_wals[glotto]
 		if found_params:
 			for lang in complete_lang:
+				# isocode = lang["ISO"]
 				if isocode in ethnologue:
 					lang["written_status"] = ethnologue[isocode]["Written"]
-					del ethnologue[isocode]
 				else:
 					lang["written_status"] = "missing"
+			if isocode in ethnologue:
+				del ethnologue[isocode]
 
 				# ethnologue
 				# if "ISO639P3code" in lang and lang["ISO639P3code"] in ethnologue:
@@ -205,6 +217,11 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 				lang["Glottocode"] = glottocode
 				complete.append(lang)
+
+			# if glottocode == "ital1282":
+			# 	for lang in complete_lang:
+			# 		print(lang)
+
 		else:
 			glottocodes_zero_params += 1
 
@@ -314,10 +331,10 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 if __name__ == "__main__":
 	build_db(
-		"/home/ludop/Documents/langmapping_project/glottolog-cldf/cldf/languages.csv",
-		"/home/ludop/Documents/langmapping_project/data/ethnologue.csv",
-		"/home/ludop/Documents/langmapping_project/data/written.csv",
-		pathlib.Path("/home/ludop/Documents/langmapping_project/wals/cldf/"),
-		pathlib.Path("/home/ludop/Documents/langmapping_project/grambank/cldf/"),
-		pathlib.Path("/home/ludop/Documents/langmapping_project/data/")
+		"../glottolog-cldf/cldf/languages.csv",
+		"../data/ethnologue.csv",
+		"../data/written.csv",
+		pathlib.Path("../wals/cldf/"),
+		pathlib.Path("../grambank/cldf/"),
+		pathlib.Path("../data/")
 	)
