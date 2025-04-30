@@ -14,10 +14,10 @@ for line in reader:
 	line["coverage"] = float(line["coverage"])
 	line["valued_params"] = int(line["valued_params"])
 	coverage = float(line["coverage"])
-	
+
 	if not line["Glottocode"] in languages:
 		languages[line["Glottocode"]] = line
-	
+
 	# così facendo, in caso di più righe associate a un unico glottocode, prendiamo il coverage maggiore
 	if coverage > languages[line["Glottocode"]]["coverage"]:
 		languages[line["Glottocode"]] = line
@@ -28,15 +28,17 @@ for line in reader:
 # m.title = 'Mappa 1'
 # m.add_features([x["coverage"] for _, x in languages.items()], numeric=True, colors=lingtypology.gradient(100, 'white', 'green'))
 # m.create_map()
-# m.save('mappa-1.html')
+# m.save('mappe/mappa-1.html')
 
 
 # DISTRIBUZIONE DI COVERAGE
 
-dist = [x["valued_params"] for _, x in languages.items()]
-plot = sns.displot(dist)
-plt.ylim(0, len(languages))
-plot.figure.savefig("parametri.png", dpi=300) 
+# dist = [x["valued_params"] for _, x in languages.items()]
+dist = [x["coverage"] for _, x in languages.items()]
+# plot = sns.displot(dist)
+plot = sns.ecdfplot(dist)
+# plt.ylim(0, len(languages))
+plot.figure.savefig("plots/parametri.png", dpi=300)
 plt.close(plot.figure)
 
 
@@ -44,7 +46,7 @@ plt.close(plot.figure)
 q33, q66 = np.percentile(dist, [33, 66])
 print(f"### 33esimo percentile: {q33}")
 print(f"### 66esimo percentile: {q66}")
- 
+
 
 # MAPPA 2: tutti i pallini con i bin
 
@@ -62,12 +64,12 @@ for language, language_dict in languages.items():
 
 # m = lingtypology.LingMap(languages_binned.keys(), glottocode=True)
 # m.title = 'Mappa 2'
-# m.add_features([x["coverage"] for _, x in languages_binned.items()], 
+# m.add_features([x["coverage"] for _, x in languages_binned.items()],
 # 				colors=("#FF0000", "#FFFF00", "#00FF00"),
 # 				factor=('Low', 'Medium', 'High'),
 # 				control=True)
 # m.create_map()
-# m.save('mappa-2.html')
+# m.save('mappe/mappa-2.html')
 
 
 reader = csv.DictReader(open('csvs/parametri_annotati.csv', 'r'), delimiter="\t", quotechar='"')
@@ -96,14 +98,15 @@ for classe in classi:
 		filtered_languages[language]["valued_params"] = n_params
 		filtered_languages[language]["coverage"] = n_params/classi[classe]
 
-			
-	dist = [x["valued_params"] for _, x in filtered_languages.items()]
-	plot = sns.displot(dist)
-	plt.ylim(0, len(languages))
-	plot.figure.savefig(f"parametri_{classe}.png", dpi=300) 
+
+	# dist = [x["valued_params"] for _, x in filtered_languages.items()]
+	dist = [x["coverage"] for _, x in filtered_languages.items()]
+	plot = sns.ecdfplot(dist)
+	# plt.ylim(0, len(languages))
+	plot.figure.savefig(f"plots/parametri_{classe}.png", dpi=300)
 	plt.close(plot.figure)
 
-	
+
 
 
 

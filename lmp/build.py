@@ -1,4 +1,4 @@
-import csv 
+import csv
 import copy
 import json
 import collections
@@ -115,8 +115,6 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 	complete = []
 	for glottocode in glottocodes:
 		found_params = False
-		# unique_id = uuid.uuid4()
-		# if glottocode in glottoisomap:
 		complete_lang = [{}]
 
 		# grambank
@@ -163,8 +161,8 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		if glottocode in glottoisomap:
 			isocode = glottoisomap[glottocode]["ISO639P3code"]
 			for lang in complete_lang:
+				lang["ISO"] = isocode
 				# lang["iso639-3"] = isocode
-				lang["iso639-3"] = isocode
 
 		# 	# noglotto wals
 		# 	found_wals = []
@@ -188,15 +186,21 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		# 		del glotto_wals[glotto]
 		if found_params:
 			for lang in complete_lang:
-				# ethnologue
-				if "ISO639P3code" in lang and lang["ISO639P3code"] in ethnologue:
-					lang["written_status"] = ethnologue[lang["ISO639P3code"]]["Written"]
-					del ethnologue[lang["ISO639P3code"]]
-				elif isocode in ethnologue:
+				if isocode in ethnologue:
 					lang["written_status"] = ethnologue[isocode]["Written"]
 					del ethnologue[isocode]
 				else:
 					lang["written_status"] = "missing"
+
+				# ethnologue
+				# if "ISO639P3code" in lang and lang["ISO639P3code"] in ethnologue:
+				# 	lang["written_status"] = ethnologue[lang["ISO639P3code"]]["Written"]
+				# 	del ethnologue[lang["ISO639P3code"]]
+				# elif isocode in ethnologue:
+				# 	lang["written_status"] = ethnologue[isocode]["Written"]
+				# 	del ethnologue[isocode]
+				# else:
+				# 	lang["written_status"] = "missing"
 					# logging.warning(f"ISO code {isocode} not found in ethnologue")
 
 				lang["Glottocode"] = glottocode
@@ -211,7 +215,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 	with open(output_dir.joinpath("mapping.csv"), "w", encoding="utf-8") as fout:
 		writer = csv.DictWriter(fout,
-							fieldnames=["Glottocode", "ID", "iso639-3","written_status", "coverage", "valued_params"]+list(parameters.keys()),
+							fieldnames=["Glottocode", "ID", "ISO","written_status", "coverage", "valued_params"]+list(parameters.keys()),
 							delimiter="\t",
 							extrasaction="ignore",
 							quoting=csv.QUOTE_MINIMAL,
