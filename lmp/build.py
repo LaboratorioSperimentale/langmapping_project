@@ -1,4 +1,4 @@
-import csv
+import csv 
 import copy
 import json
 import collections
@@ -108,7 +108,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 		if not value == "?":
 			parameters[f"G:{grambank_parameters[parameter]['Name']}"]+=1
 
-
+#fino a qui, sono stati caricati tutti i database utili
 
 	logging.info("Building complete set of languages...")
 	glottocodes_zero_params = 0
