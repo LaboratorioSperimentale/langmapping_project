@@ -115,7 +115,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 	complete = []
 	for glottocode in glottocodes:
 		found_params = False
-		complete_lang = [{}]
+		complete_lang = [{"Glottocode": glottocode}]
 
 		# grambank
 		if glottocode in grambank_tosave:
@@ -125,6 +125,12 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 		# glotto wals 1
 		if glottocode in glotto_wals:
+			# if glottocode == "basq1248":
+			# 	print("HERE")
+			# 	# print(glotto_wals[glottocode])
+			# 	print(len(glotto_wals[glottocode]))
+			# 	input()
+
 			found_params = True
 
 			# if glottocode == "ital1282":
@@ -152,18 +158,21 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 			if len(glotto_wals[glottocode]) > 1:
 				# logging.warning(f"Glottocode {glottocode} has {len(glotto_wals[glottocode])} WALS languages")
 				for lang in glotto_wals[glottocode][1:]:
+					if glottocode=="basq1248":
+						print("Lang ID:", lang["ID"])
 					new_lang = copy.deepcopy(complete_lang[0])
 					new_lang.update(lang)
 					complete_lang.append(new_lang)
-
-				
+					if glottocode=="basq1248":
+						print("Update len:", len(complete_lang))
 
 			lang = glotto_wals[glottocode][0]
 			complete_lang[0].update(lang)
 
-			# if glottocode == "ital1282":
-			# 	for lang in complete_lang:
-			# 		print(lang)
+
+			if glottocode == "basq1248":
+				print("FINAL LEN:", len(complete_lang))
+				input()
 
 			del glotto_wals[glottocode]
 
@@ -201,6 +210,7 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 					lang["written_status"] = ethnologue[isocode]["Written"]
 				else:
 					lang["written_status"] = "missing"
+
 			if isocode in ethnologue:
 				del ethnologue[isocode]
 
@@ -215,8 +225,8 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 				# 	lang["written_status"] = "missing"
 					# logging.warning(f"ISO code {isocode} not found in ethnologue")
 
-				lang["Glottocode"] = glottocode
-				complete.append(lang)
+			# lang["Glottocode"] = glottocode
+			complete.extend(complete_lang)
 
 			# if glottocode == "ital1282":
 			# 	for lang in complete_lang:
@@ -224,6 +234,11 @@ def build_db(iso_glotto_fname, ethnologue_fname,
 
 		else:
 			glottocodes_zero_params += 1
+
+		if glottocode == "basq1248":
+			# print(complete_lang)
+			print(len(complete_lang))
+			input()
 
 	logging.info(f"After mapping, {len(complete)} languages mapped.")
 	logging.info(f"Glottocodes with no parameters found: {glottocodes_zero_params}")

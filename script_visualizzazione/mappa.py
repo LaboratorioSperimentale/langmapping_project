@@ -33,7 +33,9 @@ import collections
 _FILTRO_PARAMETRI = True
 
 # STEP1: leggere parametri dal file con annotazioni
-reader = csv.DictReader(open('csvs/parametri_annotati.csv', 'r'), delimiter="\t", quotechar='"')
+reader = csv.DictReader(open('csvs/parametri_annotati_completo.csv', 'r'),
+delimiter="\t")
+# quotechar='"')
 classi = collections.defaultdict(int)
 parameters = {}
 for line in reader:
@@ -45,9 +47,12 @@ print ("TOTALE PARAMETRI ANNOTATI: ", len(parameters))
 for classe in classi:
 	print(f"### {classe}: {classi[classe]}")
 
-reader = csv.DictReader(open('csvs/mapping.csv', 'r'), delimiter="\t")
+reader = csv.DictReader(open('csvs/mapping.csv', 'r'),
+delimiter="\t",
+quotechar='"')
 
 # Languages contiene l'intero DB
+parametri_nelle_lingue = set()
 languages = {}
 for line in reader:
 	line["coverage"] = float(line["coverage"])
@@ -56,6 +61,7 @@ for line in reader:
 	if _FILTRO_PARAMETRI:
 		filtered_line = {"coverage": 0, "valued_params": 0, "Glottocode": line["Glottocode"], "written_status": line["written_status"]}
 		for param in line:
+			parametri_nelle_lingue.add(param)
 			if param.startswith("G:") or param.startswith("W:"):
 				if param in parameters:
 					filtered_line[param] = line[param]
@@ -74,13 +80,12 @@ for line in reader:
 	if line["coverage"] > languages[glottocode]["coverage"]:
 		languages[glottocode] = line
 
+print("Numero di lingue prima del filtro", len(languages))
+
 languages = {x:y for x, y in languages.items() if y["coverage"] > 0}
 
 print("### Lingue totali: ", len(languages))
 
-for glottocode in languages:
-	print(len(languages[glottocode]))
-	input()
 
 # DISTRIBUZIONE DI COVERAGE
 dist_discrete = [x["valued_params"] for _, x in languages.items()]
@@ -93,6 +98,7 @@ plt.close(plot.figure)
 
 plot = sns.histplot(dist_discrete)
 plot.set_title("Distribuzione di copertura dei parametri - istogramma")
+plt.ylim(0, len(languages))
 plot.figure.savefig("plots parametri/parametri_istogramma.png", dpi=300)
 plt.close(plot.figure)
 
@@ -129,8 +135,6 @@ for language, language_dict in languages.items():
 		languages[language]["coverage_bin2"] = "High"
 
 
-
-
 print("### (Percentili) Lingue con value: HIGH - ", len([x for x in languages.values() if x["coverage_bin"] == "High"]))
 print("### (Percentili) Lingue con value: MEDIUM - ", len([x for x in languages.values() if x["coverage_bin"] == "Medium"]))
 print("### (Percentili) Lingue con value: LOW - ", len([x for x in languages.values() if x["coverage_bin"] == "Low"]))
@@ -139,80 +143,83 @@ print("### (Media+/-std) Lingue con value: HIGH - ", len([x for x in languages.v
 print("### (Media+/-std) Lingue con value: MEDIUM - ", len([x for x in languages.values() if x["coverage_bin2"] == "Medium"]))
 print("### (Media+/-std) Lingue con value: LOW - ", len([x for x in languages.values() if x["coverage_bin2"] == "Low"]))
 
-# MAPPA 1: tutti i pallini senza i bin
-m = lingtypology.LingMap(languages.keys(), glottocode=True)
-m.title = 'Mappa 1'
-m.add_features([x["coverage"] for _, x in languages.items()],
-				numeric=True,
-				colors=lingtypology.gradient(10, 'white', 'green'))
-m.legend_position = 'topright'
-m.legent_title = "Legend"
-m.create_map()
-m.save('mappe/mappa-1.html')
 
-print("#### PRODOTTO MAPPA 1 ####")
+# # ! MAPPA 1: tutti i pallini senza i bin
+# m = lingtypology.LingMap(languages.keys(), glottocode=True)
+# m.title = 'Mappa 1'
+# m.add_features([x["coverage"] for _, x in languages.items()],
+# 				numeric=True,
+# 				colors=lingtypology.gradient(10, 'white', 'green'))
+# m.legend_position = 'topright'
+# m.legent_title = "Legend"
+# m.create_map()
+# m.save('mappe/mappa-1.html')
 
-# MAPPA 2a: tutti i pallini con i bin - percentile
-m = lingtypology.LingMap(languages.keys(), glottocode=True)
-m.title = 'Mappa 2a'
-m.add_features([x["coverage_bin"] for _, x in languages.items()],
-				colors=("#FF0000", "#FFFF00", "#00FF00"),
-				factor=('Low', 'Medium', 'High'),
-				control=True)
-m.legend_position = 'topright'
-m.legent_title = "Legend"
-m.create_map()
-m.save('mappe/mappa-2a.html')
+# print("#### PRODOTTO MAPPA 1 ####")
 
-print("#### PRODOTTO MAPPA 2a ####")
+# # ! MAPPA 2a: tutti i pallini con i bin - percentile
+# m = lingtypology.LingMap(languages.keys(), glottocode=True)
+# m.title = 'Mappa 2a'
+# m.add_features([x["coverage_bin"] for _, x in languages.items()],
+# 				colors=("#FF0000", "#FFFF00", "#00FF00"),
+# 				factor=('Low', 'Medium', 'High'),
+# 				control=True)
+# m.legend_position = 'topright'
+# m.legent_title = "Legend"
+# m.create_map()
+# m.save('mappe/mappa-2a.html')
 
-# MAPPA 2b: tutti i pallini con i bin - media +/- std
-m = lingtypology.LingMap(languages.keys(), glottocode=True)
-m.title = 'Mappa 2b'
-m.add_features([x["coverage_bin2"] for _, x in languages.items()],
-				colors=("#FF0000", "#FFFF00", "#00FF00"),
-				factor=('Low', 'Medium', 'High'),
-				control=True)
-m.legend_position = 'topright'
-m.legent_title = "Legend"
-m.create_map()
-m.save('mappe/mappa-2b.html')
+# print("#### PRODOTTO MAPPA 2a ####")
 
-print("#### PRODOTTO MAPPA 2b ####")
+# # ! MAPPA 2b: tutti i pallini con i bin - media +/- std
+# m = lingtypology.LingMap(languages.keys(), glottocode=True)
+# m.title = 'Mappa 2b'
+# m.add_features([x["coverage_bin2"] for _, x in languages.items()],
+# 				colors=("#FF0000", "#FFFF00", "#00FF00"),
+# 				factor=('Low', 'Medium', 'High'),
+# 				control=True)
+# m.legend_position = 'topright'
+# m.legent_title = "Legend"
+# m.create_map()
+# m.save('mappe/mappa-2b.html')
 
-for written_status in ["Written", "Primarily oral", "don't know"]:
+# print("#### PRODOTTO MAPPA 2b ####")
 
-	# MAPPA 2a: tutti i pallini con i bin - percentile
-	m = lingtypology.LingMap([glotto for glotto, x in languages.items() if x["written_status"] == written_status], glottocode=True)
-	m.title = f"Mappa 2a - {written_status}"
-	m.add_features([x["coverage_bin"] for _, x in languages.items() if x["written_status"] == written_status],
-					colors=("#FF0000", "#FFFF00", "#00FF00"),
-					factor=('Low', 'Medium', 'High'),
-					control=True)
-	m.legend_position = 'topright'
-	m.legent_title = "Legend"
-	m.create_map()
-	m.save(f"mappe/mappa-2a-{written_status}.html")
+# for written_status in ["Written", "Primarily oral", "don't know"]:
 
-	print(f"#### PRODOTTO MAPPA 2a-{written_status} ####")
+# 	# ! MAPPA 2a: tutti i pallini con i bin - percentile
+# 	m = lingtypology.LingMap([glotto for glotto, x in languages.items() if x["written_status"] == written_status], glottocode=True)
+# 	m.title = f"Mappa 2a - {written_status}"
+# 	m.add_features([x["coverage_bin"] for _, x in languages.items() if x["written_status"] == written_status],
+# 					colors=("#FF0000", "#FFFF00", "#00FF00"),
+# 					factor=('Low', 'Medium', 'High'),
+# 					control=True)
+# 	m.legend_position = 'topright'
+# 	m.legent_title = "Legend"
+# 	m.create_map()
+# 	m.save(f"mappe/mappa-2a-{written_status}.html")
 
-	# MAPPA 2b: tutti i pallini con i bin - media +/- std
-	m = lingtypology.LingMap([glotto for glotto, x in languages.items() if x["written_status"] == written_status], glottocode=True)
-	m.title = f"Mappa 2b - {written_status}"
-	m.add_features([x["coverage_bin2"] for _, x in languages.items() if x["written_status"] == written_status],
-					colors=("#FF0000", "#FFFF00", "#00FF00"),
-					factor=('Low', 'Medium', 'High'),
-					control=True)
-	m.legend_position = 'topright'
-	m.legent_title = "Legend"
-	m.create_map()
-	m.save(f"mappe/mappa-2b-{written_status}.html")
+# 	print(f"#### PRODOTTO MAPPA 2a-{written_status} ####")
 
-	print(f"#### PRODOTTO MAPPA 2b-{written_status} ####")
+# 	# ! MAPPA 2b: tutti i pallini con i bin - media +/- std
+# 	m = lingtypology.LingMap([glotto for glotto, x in languages.items() if x["written_status"] == written_status], glottocode=True)
+# 	m.title = f"Mappa 2b - {written_status}"
+# 	m.add_features([x["coverage_bin2"] for _, x in languages.items() if x["written_status"] == written_status],
+# 					colors=("#FF0000", "#FFFF00", "#00FF00"),
+# 					factor=('Low', 'Medium', 'High'),
+# 					control=True)
+# 	m.legend_position = 'topright'
+# 	m.legent_title = "Legend"
+# 	m.create_map()
+# 	m.save(f"mappe/mappa-2b-{written_status}.html")
+
+# 	print(f"#### PRODOTTO MAPPA 2b-{written_status} ####")
 
 
 
 for classe in classi:
+
+	print("@@@", classe, "@@@", " parametri:", classi[classe])
 
 	filtered_languages = {}
 	for language, language_dict in languages.items():
@@ -234,14 +241,18 @@ for classe in classi:
 		if filtered_languages[language]["valued_params"] == 0:
 			to_remove.add(language)
 
-
-
 	# DISTRIBUZIONE DI COVERAGE
 	dist_discrete = [x["valued_params"] for _, x in filtered_languages.items()]
 	dist_continuous = [x["coverage"] for _, x in filtered_languages.items()]
 	plot = sns.ecdfplot(dist_continuous)
 	plot.set_title("Distribuzione di copertura dei parametri")
+	plt.ylim(0, len(languages))
 	plot.figure.savefig(f"plots parametri/parametri_{classe}.png.png", dpi=300)
+	plt.close(plot.figure)
+
+	plot = sns.histplot(dist_discrete)
+	plot.set_title("Distribuzione di copertura dei parametri - istogramma")
+	plot.figure.savefig(f"plots parametri/parametri_istogramma_{classe}.png", dpi=300)
 	plt.close(plot.figure)
 
 	#prendiamo 33esimo e 66esimo percentile per creare i  bin
@@ -267,8 +278,6 @@ for classe in classi:
 		else:
 			filtered_languages[language]["coverage_bin"] = "High"
 
-		# print(language, languages[language]["valued_params"], languages[language]["coverage_bin"])
-		# input()
 		if coverage <= average - std:
 			filtered_languages[language]["coverage_bin2"] = "Low"
 		elif coverage <= average + std:
@@ -279,67 +288,40 @@ for classe in classi:
 	for glottocode in to_remove:
 		del filtered_languages[glottocode]
 
-	print("NUOVO LINGUE TOTALI", len(filtered_languages))
+	print(f"Lingue con almeno un parametro di classe {classe}: ", len(filtered_languages))
 
 	features = [x["coverage_bin"] for _, x in filtered_languages.items()]
-	stroke_features = [x["written_status"] for _, x in filtered_languages.items()]
 
-	# MAPPA 3: tutti i pallini senza i bin
-	m = lingtypology.LingMap(filtered_languages.keys(), glottocode=True)
-	m.title = 'Mappa 1'
-	m.add_features([x["coverage"] for _, x in filtered_languages.items()],
-					numeric=True,
-					colors=lingtypology.gradient(10, 'white', 'green'))
-	m.legend_position = 'topright'
-	m.legent_title = "Legend"
-	m.create_map()
-	m.save(f'mappe/mappa-3-{classe}.html')
+# 	# ! MAPPA 3: tutti i pallini senza i bin
+# 	m = lingtypology.LingMap(filtered_languages.keys(), glottocode=True)
+# 	m.title = 'Mappa 1'
+# 	m.add_features([x["coverage"] for _, x in filtered_languages.items()],
+# 					numeric=True,
+# 					colors=lingtypology.gradient(10, 'white', 'green'))
+# 	m.legend_position = 'topright'
+# 	m.legent_title = "Legend"
+# 	m.create_map()
+# 	m.save(f'mappe/mappa-3-{classe}.html')
 
-	for written_status in ["Written", "Primarily oral", "don't know"]:
-		# MAPPA 3a: tutti i pallini senza i bin
-		m = lingtypology.LingMap([glotto for glotto, x in filtered_languages.items() if x["written_status"] == written_status], glottocode=True)
-		m.title = 'Mappa 1'
-		m.add_features([x["coverage"] for _, x in filtered_languages.items() if x["written_status"] == written_status],
-						numeric=True,
-						colors=lingtypology.gradient(10, 'white', 'green'))
-		m.legend_position = 'topright'
-		m.legent_title = "Legend"
-		m.create_map()
-		m.save(f'mappe/mappa-3-{classe}-{written_status}.html')
-
-
-
-# MAPPA 4: tutti i pallini scritto/parlato
-m = lingtypology.LingMap(languages.keys(), glottocode=True)
-m.title = 'Mappa 3'
-m.add_features([x["written_status"] for _, x in languages.items()],
-			control=True,
-			colors=("#7C0B2B", "#FFCBDD", "#FB4B4E"))
-m.create_map()
-m.save('mappe/mappa-4.html')
+# 	for written_status in ["Written", "Primarily oral", "don't know"]:
+# 		# ! MAPPA 3a: tutti i pallini senza i bin
+# 		m = lingtypology.LingMap([glotto for glotto, x in filtered_languages.items() if x["written_status"] == written_status], glottocode=True)
+# 		m.title = 'Mappa 1'
+# 		m.add_features([x["coverage"] for _, x in filtered_languages.items() if x["written_status"] == written_status],
+# 						numeric=True,
+# 						colors=lingtypology.gradient(10, 'white', 'green'))
+# 		m.legend_position = 'topright'
+# 		m.legent_title = "Legend"
+# 		m.create_map()
+# 		m.save(f'mappe/mappa-3-{classe}-{written_status}.html')
 
 
 
-
-
-
-
-# language_coverage_bin = {}
-
-# for glottocode, coverage in language_coverage.items():
-# 	if coverage <= 0.3:
-# 		language_coverage_bin[glottocode] = 1
-# 	elif coverage <= 0.6:
-# 		language_coverage_bin[glottocode] = 2
-# 	else:
-# 		language_coverage_bin[glottocode] = 3
-
-# m = lingtypology.LingMap(language_coverage_bin.keys(), glottocode=True)
-# m.add_features(language_coverage_bin.values(), numeric=True, colors=lingtypology.gradient(10, 'white', 'red'))
-# # m.add_features(native_speakers, numeric=True, colors=lingtypology.gradient(10, 'white', 'red'))
-
-# #m.save_static(fname="mappa.png")
-
-# # COLOR GRADIENT
-# # m.add_features(native_speakers, numeric=True)
-# # m.colormap_colors = ('white', 'red')
+# # ! MAPPA 4: tutti i pallini scritto/parlato
+# m = lingtypology.LingMap(languages.keys(), glottocode=True)
+# m.title = 'Mappa 3'
+# m.add_features([x["written_status"] for _, x in languages.items()],
+# 			control=True,
+# 			colors=("#7C0B2B", "#FFCBDD", "#FB4B4E"))
+# m.create_map()
+# m.save('mappe/mappa-4.html')
