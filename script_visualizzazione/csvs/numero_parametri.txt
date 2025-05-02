@@ -1,0 +1,83 @@
+@@@ Word Order @@@  parametri: 77
+### 33esimo percentile: 14.0
+### 66esimo percentile: 22.0
+### Average: 0.2625210864008362
+### Std: 0.18409558000871665
+Lingue con almeno un parametro di classe Word Order:  3001
+
+@@@ Simple Clauses @@@  parametri: 75
+### 33esimo percentile: 16.0
+### 66esimo percentile: 40.0
+### Average: 0.3636263944034772
+### Std: 0.2649074293623025
+Lingue con almeno un parametro di classe Simple Clauses:  2967
+
+@@@ Morphology @@@  parametri: 41
+### 33esimo percentile: 9.0
+### 66esimo percentile: 25.0
+### Average: 0.39947152165792765
+### Std: 0.29033004860787115
+Lingue con almeno un parametro di classe Morphology:  2778
+
+@@@ Nominal Categories @@@  parametri: 53
+### 33esimo percentile: 9.25
+### 66esimo percentile: 23.0
+### Average: 0.3137876047474872
+### Std: 0.22147686694839588
+Lingue con almeno un parametro di classe Nominal Categories:  3069
+
+@@@ Verbal Categories @@@  parametri: 39
+### 33esimo percentile: 8.0
+### 66esimo percentile: 19.0
+### Average: 0.3380964847215548
+### Std: 0.24687286108785267
+Lingue con almeno un parametro di classe Verbal Categories:  2938
+
+@@@ Lexicon @@@  parametri: 24
+### 33esimo percentile: 4.0
+### 66esimo percentile: 10.0
+### Average: 0.2764227642276429
+### Std: 0.19897942339470812
+Lingue con almeno un parametro di classe Lexicon:  2775
+
+@@@ Phonology @@@  parametri: 22
+### 33esimo percentile: 1.0
+### 66esimo percentile: 2.0
+### Average: 0.17347754344350852
+### Std: 0.25345532824229305
+Lingue con almeno un parametro di classe Phonology:  2543
+
+@@@ Other @@@  parametri: 4
+### 33esimo percentile: 0.0
+### 66esimo percentile: 1.0
+### Average: 0.19405842314237096
+### Std: 0.20781527311095982
+Lingue con almeno un parametro di classe Other:  1869
+
+@@@ Nominal Syntax @@@  parametri: 32
+### 33esimo percentile: 9.0
+### 66esimo percentile: 22.0
+### Average: 0.4411248581962564
+### Std: 0.3142550149136486
+Lingue con almeno un parametro di classe Nominal Syntax:  2632
+
+@@@ Complex Sentences @@@  parametri: 17
+### 33esimo percentile: 1.0
+### 66esimo percentile: 7.0
+### Average: 0.2585165660138132
+### Std: 0.2387604272065813
+Lingue con almeno un parametro di classe Complex Sentences:  2393
+
+@@@ Sign Languages @@@  parametri: 2
+### 33esimo percentile: 0.0
+### 66esimo percentile: 0.0
+### Average: 0.010351673284174702
+### Std: 0.09873298861944013
+Lingue con almeno un parametro di classe Sign Languages:  40
+
+@@@ Pragmatics @@@  parametri: 1
+### 33esimo percentile: 0.0
+### 66esimo percentile: 1.0
+### Average: 0.4931934203062961
+### Std: 0.4999536683262492
+Lingue con almeno un parametro di classe Pragmatics:  1739
