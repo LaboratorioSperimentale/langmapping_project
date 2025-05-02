@@ -1,0 +1,386 @@
+keep	comment	origin	name
+sì		WALS	Order of Subject, Object and Verb
+no		WALS	Order of Subject and Verb
+no		WALS	Order of Object and Verb
+sì		WALS	Order of Adjective and Noun
+sì		WALS	Order of Demonstrative and Noun
+sì		WALS	Order of Numeral and Noun
+sì		WALS	Position of Polar Question Particles
+sì		WALS	Position of Interrogative Phrases in Content Questions
+no		WALS	Relationship between the Order of Object and Verb and the Order of Adjective and Noun
+no		WALS	Negative Morphemes
+sì	potrebbe rivelare cose interessanti	WALS	Polar Questions
+no		WALS	Order of Negative Morpheme and Verb
+no		WALS	Preverbal Negative Morphemes
+no		WALS	Postverbal Negative Morphemes
+no		WALS	Minor morphological means of signaling negation
+no		WALS	Position of Negative Word With Respect to Subject, Object, and Verb
+no		WALS	Position of negative words relative to beginning and end of clause and with respect to adjacency to verb
+no		WALS	The Position of Negative Morphemes in SVO Languages
+no		WALS	NegSVO Order
+no		WALS	SNegVO Order
+no		WALS	SVNegO Order
+no		WALS	SVONeg Order
+sì		WALS	Prefixing vs. Suffixing in Inflectional Morphology
+no		WALS	Coding of Nominal Plurality
+sì		WALS	Definite Articles
+sì		WALS	Indefinite Articles
+no		WALS	Position of Case Affixes
+sì		WALS	Position of Pronominal Possessive Affixes
+sì		WALS	Position of Tense-Aspect Affixes
+sì		WALS	Order of Adposition and Noun Phrase
+sì		WALS	Order of Genitive and Noun
+sì		WALS	Order of Relative Clause and Noun
+sì	tentatively (potrebbe però essere interessante)	WALS	Postnominal relative clauses
+no		WALS	Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase
+no		WALS	Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun
+sì		WALS	Expression of Pronominal Subjects
+no		WALS	The Position of Negative Morphemes in SOV Languages
+no		WALS	NegSOV Order
+no	incasinato	WALS	SNegOV Order
+no	incasinato	WALS	SONegV Order
+no	incasinato	WALS	SOVNeg Order
+sì		WALS	The Morphological Imperative
+sì 	forse però è incasinata e tutto sommato poco informativa	WALS	The Prohibitive
+no		WALS	Number of Non-Derived Basic Colour Categories
+no		WALS	Number of Basic Colour Categories
+no		WALS	Green and Blue
+no		WALS	Red and Yellow
+no		WALS	Fixed Stress Locations
+no		WALS	Weight-Sensitive Stress
+no		WALS	Weight Factors in Weight-Sensitive Stress Systems
+no		WALS	Rhythm Types
+no		WALS	Para-Linguistic Usages of Clicks
+no		WALS	Consonant Inventories
+no		WALS	Vowel Quality Inventories
+no		WALS	Consonant-Vowel Ratio
+no		WALS	Voicing in Plosives and Fricatives
+no		WALS	Voicing and Gaps in Plosive Systems
+no		WALS	Uvular Consonants
+no		WALS	Glottalized Consonants
+no		WALS	Lateral Consonants
+no		WALS	The Velar Nasal
+no		WALS	Vowel Nasalization
+no		WALS	Front Rounded Vowels
+sì	chissà	WALS	Syllable Structure
+no		WALS	Absence of Common Consonants
+no		WALS	Presence of Uncommon Consonants
+no		WALS	Fusion of Selected Inflectional Formatives
+no		WALS	Exponence of Selected Inflectional Formatives
+no	poco informativo per i parametri scelti	WALS	Exponence of Tense-Aspect-Mood Inflection
+no		WALS	Case Syncretism
+no		WALS	Syncretism in Verbal Person/Number Marking
+sì		WALS	Plurality in Independent Personal Pronouns
+sì		WALS	Inclusive/Exclusive Distinction in Independent Pronouns
+sì	bisogna però compattare	WALS	Inclusive/Exclusive Distinction in Verbal Inflection
+sì		WALS	Gender Distinctions in Independent Personal Pronouns
+sì		WALS	Person Marking on Adpositions
+sì	compattando	WALS	Number of Cases
+no		WALS	Asymmetrical Case-Marking
+sì		WALS	Perfective/Imperfective Aspect
+sì		WALS	The Past Tense
+sì	potremmo valutare eventuali influenze della literacy visto che il campione è diviso a metà	WALS	The Future Tense
+no	poco informativo	WALS	The Perfect
+sì		WALS	Semantic Distinctions of Evidentiality
+sì		WALS	Coding of Evidentiality
+no		WALS	Order of Object, Oblique, and Verb
+sì		WALS	Order of Degree Word and Adjective
+sì	ci sono tanti lavori su questo nel parlato di Jesus Olguin Martinez	WALS	Order of Adverbial Subordinator and Clause
+sì		WALS	Alignment of Case Marking of Full Noun Phrases
+sì		WALS	Alignment of Case Marking of Pronouns
+sì		WALS	Alignment of Verbal Person Marking
+sì		WALS	Verbal Person Marking
+no		WALS	Third Person Zero of Verbal Person Marking
+sì	ci sono coinvolti principi di iconicità	WALS	Order of Person Markers on the Verb
+sì	poco informativo, ma terrei perché si dice che il passivo è più diffuso nelle lingue scritte	WALS	Passive Constructions
+no		WALS	Nonperiphrastic Causative Constructions
+sì	forse anche no	WALS	Symmetric and Asymmetric Standard Negation
+no	incasinato	WALS	Subtypes of Asymmetric Standard Negation
+sì	forse incasinato, valutiamo	WALS	Comparative Constructions
+no		WALS	Hand and Arm
+no		WALS	Finger and Hand
+sì		WALS	Tone
+sì	compattando	WALS	Inflectional Synthesis of the Verb
+sì		WALS	Locus of Marking in the Clause
+sì		WALS	Locus of Marking in Possessive Noun Phrases
+no		WALS	Locus of Marking: Whole-language Typology
+no		WALS	Zero Marking of A and P Arguments
+sì		WALS	Reduplication
+sì	però forse anche no, in fondo potrebbe essere poco interessante	WALS	Number of Genders
+no		WALS	Sex-based and Non-sex-based Gender Systems
+sì	però forse anche no, in fondo poco interessante	WALS	Systems of Gender Assignment
+sì		WALS	Occurrence of Nominal Plurality
+sì		WALS	The Associative Plural
+sì		WALS	Distance Contrasts in Demonstratives
+sì	ha a che fare con la deissi	WALS	Pronominal and Adnominal Demonstratives
+no	incasinato	WALS	Indefinite Pronouns
+no		WALS	Intensifiers and Reflexive Pronouns
+sì		WALS	Comitatives and Instrumentals
+no	troppo incasinato / poco interessante?	WALS	Ordinal Numerals
+no	troppo incasinato	WALS	Distributive Numerals
+sì		WALS	Numeral Classifiers
+sì		WALS	Obligatory Possessive Inflection
+no		WALS	Number of Possessive Nouns
+sì	compattando i parametri 	WALS	Possessive Classification
+sì		WALS	Genitives, Adjectives and Relative Clauses
+sì		WALS	Adjectives without Nouns
+no	troppo complesso/incasinato	WALS	Action Nominal Constructions
+sì		WALS	Noun Phrase Conjunction
+sì		WALS	Nominal and Verbal Conjunction
+sì		WALS	Imperative-Hortative Systems
+no	banale	WALS	The Optative
+sì	mi sembra incasinato, ma lo terrei perché può essere legato a fenomeni interazionali	WALS	Situational Possibility
+sì	mi sembra incasinato, ma lo terrei perché può essere legato a fenomeni interazionali	WALS	Epistemic Possibility
+no	incasinato	WALS	Overlap between Situational and Epistemic Modal Marking
+no	suppletivismo mi sembra tutto sommato poco interessante	WALS	Suppletion According to Tense and Aspect
+sì/no	l'imperativo è costruzione tipicamente parlata, ma la categoria del suppletivismo mi sembra poco interessante	WALS	Suppletion in Imperatives and Hortatives
+no	campione troppo sbilanciato	WALS	Verbal Number and Suppletion
+sì		WALS	Prenominal relative clauses
+sì	potrebbe intersecarsi con la serialità e con varie questioni riguardanti animatezza ecc	WALS	Ditransitive Constructions: The Verb 'Give'
+no	complicati i parametri	WALS	Reciprocal Constructions
+sì	per simpatia, poi al limite lo togliamo (e cmq abbiamo qualche riflessione sul parlato)	WALS	Antipassive Constructions
+sì	per simpatia	WALS	Productivity of the Antipassive Construction
+no	troppo incasinato, costruzione rara	WALS	Applicative Constructions
+no	per conseguenza	WALS	Other Roles of Applied Objects
+sì	il sequential potrebbe correlare con una maggiore tendenza alla giustapposizione tipica dell'oralità?	WALS	Periphrastic Causative Constructions
+sì	non so bene perché, ma lo terrei (forte sbilanciamento nel campione: la strategia inglese sembra molto minoritaria)	WALS	Negative Indefinite Pronouns and Predicate Negation
+sì		WALS	Predicative Possession
+sì	potrebbe essere interessante per quello che dice Chafe sugli aggettivi (anche se non è proprio la stessa cosa)	WALS	Predicative Adjectives
+sì		WALS	Nominal and Locational Predication
+sì		WALS	Zero Copula for Predicate Nominals
+sì		WALS	Relativization on Subjects
+sì		WALS	Relativization on Obliques
+sì	lo terrei, raggruppando i parametri	WALS	Want' Complement Subjects
+sì/no	come sotto per utterance complement clauses	WALS	Purpose Clauses
+sì/no	come sotto per utterance complement clauses	WALS	When' Clauses
+sì/no	come sotto per utterance complement clauses	WALS	Reason Clauses
+sì/no	in teoria importantissimo, temo però che i parametri (balanced/deranked) siano poco informativi, ci interesserebbero di più altre cose	WALS	Utterance Complement Clauses
+sì	potrebbe essere interessante	WALS	Numeral Bases
+no		WALS	M-T Pronouns
+no		WALS	M in First Person Singular
+no		WALS	N-M Pronouns
+no		WALS	M in Second Person Singular
+no	è un parametro legato a un altro, troppo complicato	WALS	Multiple Negative Constructions in SOV Languages
+no		WALS	Tea
+no	riguarda una sola famiglia	WALS	Inclusive/Exclusive Forms in Pama-Nyungan
+sì	potrebbe correlare con una società più legata a forme di comunicazione rituale	WALS	Politeness Distinctions in Pronouns
+sì		WALS	Obligatory Double Negation
+sì		WALS	Obligatory Double Negation in SVO languages
+sì		WALS	Multiple Negative Constructions in SVO Languages
+no	eliminare	WALS	Irregular Negatives in Sign Languages
+no	eliminare	WALS	Question Particles in Sign Languages
+no		WALS	Optional Double Negation
+no		WALS	Optional Double Negation in SOV languages
+no		WALS	Optional Double Negation in SVO languages
+sì		WALS	Third Person Pronouns and Demonstratives
+sì		WALS	Languages with different word order in negative clauses
+no		WALS	The Position of Negative Morphemes in Verb-Initial Languages
+no		WALS	Verb-Initial with Preverbal Negative
+no		WALS	Verb-Initial with Negative that is Immediately Postverbal or between Subject and Object
+no		WALS	Verb-Initial with Clause-Final Negative
+sì		WALS	Languages with two Dominant Orders of Subject, Object, and Verb
+no		WALS	Nasal Vowels in West Africa
+no		WALS	Cultural Categories of Languages with Identity of 'Finger' and 'Hand'
+sì		WALS	Obligatory Double Negation in SOV languages
+sì		WALS	Double negation in verb-initial languages
+sì		WALS	Internally-headed relative clauses
+no		WALS	The Position of Negative Morphemes in Object-Initial Languages
+sì		WALS	Correlative relative clauses
+sì		WALS	Adjoined relative clauses
+no		WALS	Optional Triple Negation
+sì		WALS	Double-headed relative clauses
+sì	esiste uguale in WALS	GRAMBANK	What is the order of numeral and noun in the NP?
+sì		GRAMBANK	What is the order of adnominal demonstrative and noun?
+sì		GRAMBANK	Can adnominal property words occur discontinuously?
+sì		GRAMBANK	Are nominal conjunction and comitative expressed by different elements?
+sì		GRAMBANK	Is there a distinction between inclusive and exclusive?
+sì		GRAMBANK	Is there a gender distinction in independent 3rd person pronouns?
+no		GRAMBANK	Is there a dual or unit augmented form (in addition to plural or augmented) for all person categories in the pronoun system?
+sì		GRAMBANK	Are there three or more distance contrasts in demonstratives?
+sì		GRAMBANK	Do demonstratives show an elevation distinction?
+sì		GRAMBANK	Do demonstratives show a visible-nonvisible distinction?
+sì		GRAMBANK	Are there demonstrative classifiers?
+no		GRAMBANK	Is there nonphonological allomorphy of noun number markers?
+no		GRAMBANK	Are there several nouns (more than three) which are suppletive for number?
+sì		GRAMBANK	Is there productive overt morphological singular marking on nouns?
+sì		GRAMBANK	Is there productive morphological dual marking on nouns?
+sì		GRAMBANK	Is there productive morphological plural marking on nouns?
+no		GRAMBANK	Is there a gender/noun class system where sex is a factor in class assignment?
+no		GRAMBANK	Is there a gender/noun class system where shape is a factor in class assignment?
+no		GRAMBANK	Is there a gender/noun class system where animacy is a factor in class assignment?
+no		GRAMBANK	Is there a gender/noun class system where plant status is a factor in class assignment?
+sì		GRAMBANK	Are there numeral classifiers?
+no		GRAMBANK	Are there possessive classifiers?
+sì		GRAMBANK	Is the adnominal possessive construction different for alienable and inalienable nouns?
+sì	 Word Order	GRAMBANK	What is the pragmatically unmarked order of adnominal possessor noun and possessed noun?
+sì		GRAMBANK	Do core adjectives (defined semantically as property concepts; value, shape, age, dimension) used attributively require the same morphological treatment as verbs?
+sì		GRAMBANK	Are there morphological cases for non-pronominal core arguments (i.e. S/A/P)?
+sì		GRAMBANK	Are there morphological cases for pronominal core arguments (i.e. S/A/P)?
+sì		GRAMBANK	Are there morphological cases for oblique non-pronominal NPs (i.e. not S/A/P)?
+sì		GRAMBANK	Are there morphological cases for independent oblique personal pronominal arguments (i.e. not S/A/P)?
+sì		GRAMBANK	Are there prepositions?
+sì		GRAMBANK	Are there postpositions?
+no		GRAMBANK	Do verbs have prefixes/proclitics, other than those that only mark A, S or P (do include portmanteau: A & S + TAM)?
+no		GRAMBANK	Do verbs have suffixes/enclitics, other than those that only mark A, S or P (do include portmanteau: A & S + TAM)?
+no		GRAMBANK	Is there productive infixation in verbs?
+sì		GRAMBANK	Is there overt morphological marking on the verb dedicated to past tense?
+sì		GRAMBANK	Is there overt morphological marking on the verb dedicated to future tense?
+no		GRAMBANK	Can the S argument be indexed by a suffix/enclitic on the verb in the simple main clause?
+no		GRAMBANK	Can the S argument be indexed by a prefix/proclitic on the verb in the simple main clause?
+no		GRAMBANK	Can the A argument be indexed by a suffix/enclitic on the verb in the simple main clause?
+no		GRAMBANK	Can the A argument be indexed by a prefix/proclitic on the verb in the simple main clause?
+no		GRAMBANK	Can the P argument be indexed by a suffix/enclitic on the verb in the simple main clause?
+no		GRAMBANK	Can the P argument be indexed by a prefix/proclitic on the verb in the simple main clause?
+sì		GRAMBANK	Are variations in marking strategies of core participants based on TAM distinctions?
+sì		GRAMBANK	Are variations in marking strategies of core participants based on verb classes?
+sì		GRAMBANK	Are variations in marking strategies of core participants based on person distinctions?
+no		GRAMBANK	Can verb stems alter according to the person of a core participant?
+no		GRAMBANK	Can the recipient in a ditransitive construction be marked like the monotransitive patient?
+sì		GRAMBANK	Can standard negation be marked by an affix, clitic or modification of the verb?
+no		GRAMBANK	Is there directional or locative morphological marking on verbs?
+no		GRAMBANK	Is there verb suppletion for participant number?
+no		GRAMBANK	Is there verb suppletion for tense or aspect?
+no		GRAMBANK	Are there conjugation classes?
+sì		GRAMBANK	Are there verbal affixes or clitics that turn intransitive verbs into transitive ones?
+sì		GRAMBANK	Is there a phonologically bound reflexive marker on the verb?
+sì		GRAMBANK	Is there a phonologically bound reciprocal marker on the verb?
+sì		GRAMBANK	Are there serial verb constructions?
+sì		GRAMBANK	Is incorporation of nouns into verbs a productive intransitivizing process?
+sì		GRAMBANK	What is the pragmatically unmarked order of S and V in intransitive clauses?
+no		GRAMBANK	Is a pragmatically unmarked constituent order verb-initial for transitive clauses?
+no		GRAMBANK	Is a pragmatically unmarked constituent order verb-medial for transitive clauses?
+no		GRAMBANK	Is a pragmatically unmarked constituent order verb-final for transitive clauses?
+sì		GRAMBANK	Can standard negation be marked clause-initially?
+sì		GRAMBANK	Is there a difference between imperative (prohibitive) and declarative negation constructions?
+no		GRAMBANK	Is verbal predication marked by the same negator as all of the following types of predication: locational, existential and nominal?
+sì		GRAMBANK	Is there productive morphological trial marking on nouns?
+sì		GRAMBANK	Is there productive morphological paucal marking on nouns?
+sì		GRAMBANK	Is there a logophoric pronoun?
+no		GRAMBANK	Can an adnominal property word agree with the noun in gender/noun class?
+no		GRAMBANK	Can an adnominal demonstrative agree with the noun in gender/noun class?
+no		GRAMBANK	Can an article agree with the noun in gender/noun class?
+no		GRAMBANK	Can an adnominal property word agree with the noun in number?
+no		GRAMBANK	Can an adnominal demonstrative agree with the noun in number?
+no		GRAMBANK	Is there a gender system where a noun's phonological properties are a factor in class assignment?
+sì		GRAMBANK	What is the order of adnominal property word and noun?
+sì		GRAMBANK	Is there a male/female distinction in 2nd person independent pronouns?
+sì		GRAMBANK	Is there a male/female distinction in 1st person independent pronouns?
+no		GRAMBANK	Can an adnominal numeral agree with the noun in gender/noun class?
+sì		GRAMBANK	What is the order of the adnominal collective universal quantifier ('all') and the noun?
+no		GRAMBANK	Do collective ('all') and distributive ('every') universal quantifiers differ in their forms or their syntactic positions?
+sì		GRAMBANK	Can polar interrogation be marked by intonation only?
+sì		GRAMBANK	Can polar interrogation be indicated by a special word order?
+sì		GRAMBANK	Is there a clause-initial polar interrogative particle?
+sì		GRAMBANK	Is there a clause-final polar interrogative particle?
+sì		GRAMBANK	Is there a polar interrogative particle that most commonly occurs neither clause-initially nor clause-finally?
+no		GRAMBANK	Is there a comparative construction that includes a form that elsewhere means 'surpass, exceed'?
+no		GRAMBANK	Is there a comparative construction with a standard marker that elsewhere has neither a locational meaning nor a 'surpass/exceed' meaning?
+sì		GRAMBANK	Is there a bound comparative degree marker on the property word in a comparative construction?
+sì		GRAMBANK	Is there a non-bound comparative degree marker modifying the property word in a comparative construction?
+sì		GRAMBANK	Can polar interrogation be marked by a question particle and verbal morphology?
+sì		GRAMBANK	Can polar interrogation be indicated by overt verbal morphology only?
+sì		GRAMBANK	Can polar interrogation be marked by tone?
+sì		GRAMBANK	Can polar interrogation be indicated by a V-not-V construction?
+sì		GRAMBANK	Can standard negation be marked by an inflecting word ("auxiliary verb")?
+sì		GRAMBANK	Can standard negation be marked by a non-inflecting word ("auxiliary particle")?
+sì		GRAMBANK	Is there a phonologically independent reflexive pronoun?
+no		GRAMBANK	Is there a phonologically independent non-bipartite reciprocal pronoun?
+sì		GRAMBANK	Are there multiple past or multiple future tenses, distinguishing distance from Time of Reference?
+no		GRAMBANK	Are there special adnominal possessive pronouns that are not formed by an otherwise regular process?
+sì		GRAMBANK	Is singular number regularly marked in the noun phrase by a dedicated phonologically free element?
+sì		GRAMBANK	Is dual number regularly marked in the noun phrase by a dedicated phonologically free element?
+sì		GRAMBANK	Is plural number regularly marked in the noun phrase by a dedicated phonologically free element?
+sì		GRAMBANK	Is trial number regularly marked in the noun phrase by a dedicated phonologically free element?
+sì		GRAMBANK	Is paucal number regularly marked in the noun phrase by a dedicated phonologically free element?
+no		GRAMBANK	Is there a large class of nouns whose gender/noun class is not phonologically or semantically predictable?
+sì		GRAMBANK	Do (nominal) content interrogatives normally or frequently occur in situ?
+sì		GRAMBANK	Is there a decimal numeral system?
+no		GRAMBANK	Is there synchronic evidence for any element of a quinary numeral system?
+no		GRAMBANK	Is there synchronic evidence for any element of a vigesimal numeral system?
+no		GRAMBANK	Is there a body-part tallying system?
+no		GRAMBANK	Is there any accusative alignment of flagging?
+no		GRAMBANK	Is there any ergative alignment of flagging?
+no		GRAMBANK	Is there any neutral alignment of flagging?
+sì		GRAMBANK	Is there a politeness distinction in 2nd person forms?
+no		GRAMBANK	Can adnominal possession be marked by a prefix on the possessor?
+no		GRAMBANK	Can adnominal possession be marked by a prefix on the possessed noun?
+no		GRAMBANK	Can adnominal possession be marked by a suffix on the possessor?
+no		GRAMBANK	Can adnominal possession be marked by a suffix on the possessed noun?
+sì		GRAMBANK	Can the S or A argument be omitted from a pragmatically unmarked clause when the referent is inferrable from context ("pro-drop" or "null anaphora")?
+sì		GRAMBANK	Are there definite or specific articles?
+sì		GRAMBANK	Do indefinite nominals commonly have indefinite articles?
+sì		GRAMBANK	Are there prenominal articles?
+sì		GRAMBANK	Are there postnominal articles?
+sì		GRAMBANK	Is there an associative plural marker for nouns?
+sì		GRAMBANK	Is there a productive morphological pattern for deriving an action/state noun from a verb?
+sì		GRAMBANK	Is there a productive morphological pattern for deriving an agent noun from a verb?
+sì		GRAMBANK	Do core adjectives (defined semantically as property concepts such as value, shape, age, dimension) act like verbs in predicative position?
+sì		GRAMBANK	Is there overt morphological marking of present tense on verbs?
+no		GRAMBANK	Is a morphological distinction between perfective and imperfective aspect available on verbs?
+no		GRAMBANK	Is there a benefactive applicative marker on the verb (including indexing)?
+no		GRAMBANK	Is there an instrumental applicative marker on the verb (including indexing)?
+sì		GRAMBANK	Do verbs classify the shape, size or consistency of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?
+sì		GRAMBANK	Is there a copula for predicate nominals?
+sì		GRAMBANK	Can mood be marked by an inflecting word ("auxiliary verb")?
+sì		GRAMBANK	Can aspect be marked by an inflecting word ("auxiliary verb")?
+sì		GRAMBANK	Can tense be marked by an inflecting word ("auxiliary verb")?
+sì		GRAMBANK	Are there verb-adjunct (aka light-verb) constructions?
+no		GRAMBANK	Is there an existential verb?
+no		GRAMBANK	Are different posture verbs used obligatorily depending on an inanimate locatum's shape or position (e.g. 'to lie' vs. 'to stand')?
+no		GRAMBANK	Is there a notably small number, i.e. about 100 or less, of verb roots in the language?
+sì		GRAMBANK	Is the order of constituents the same in main and subordinate clauses?
+no		GRAMBANK	Do clausal objects usually occur in the same position as nominal objects?
+sì		GRAMBANK	Is the order of core argument (i.e. S/A/P) constituents fixed?
+sì		GRAMBANK	Can standard negation be marked clause-finally?
+no		GRAMBANK	Is there a morpho-syntactic distinction between predicates expressing controlled versus uncontrolled events or states?
+sì		GRAMBANK	Is there a morphological passive marked on the lexical verb?
+sì		GRAMBANK	Is there a morphological antipassive marked on the lexical verb?
+sì		GRAMBANK	Is there a morphologically marked inverse on verbs?
+sì		GRAMBANK	Is there clause chaining?
+sì		GRAMBANK	Is there an overt verb marker dedicated to signalling coreference or noncoreference between the subject of one clause and an argument of an adjacent clause ("switch reference")?
+sì		GRAMBANK	Is there a morphologically marked distinction between simultaneous and sequential clauses?
+no		GRAMBANK	Are causatives formed by affixes or clitics on verbs?
+no		GRAMBANK	Is there a causative construction involving an element that is unmistakably grammaticalized from a verb for 'to say'?
+no		GRAMBANK	Are verbs reduplicated?
+no		GRAMBANK	Are elements apart from verbs or nouns reduplicated?
+no		GRAMBANK	Can the verb carry a marker of animacy of argument, unrelated to any gender/noun class of the argument visible in the NP domain?
+no		GRAMBANK	Can an article agree with the noun in number?
+no		GRAMBANK	Is there any productive diminutive marking on the noun (exclude marking by system of nominal classification only)?
+no		GRAMBANK	Is there any productive augmentative marking on the noun (exclude marking by system of nominal classification only)?
+no		GRAMBANK	Is there a comparative construction that employs a marker of the standard which elsewhere has a locational meaning?
+no		GRAMBANK	Can comparatives be expressed using two conjoined clauses?
+no		GRAMBANK	Is there a phonologically or morphosyntactically definable class of ideophones that includes ideophones depicting imagery beyond sound?
+no		GRAMBANK	Does the verb for 'give' have suppletive verb forms?
+sì		GRAMBANK	Is there an inclusory construction?
+sì		GRAMBANK	Is there a phonologically free passive marker ("particle" or "auxiliary")?
+sì		GRAMBANK	Is there a phonologically free antipassive marker ("particle" or "auxiliary")?
+sì		GRAMBANK	Can the agent be expressed overtly in a passive clause?
+no		GRAMBANK	Is there overt morphological marking on the verb dedicated to mood?
+no		GRAMBANK	Can diminutive meaning be expressed productively by a shift of gender/noun class?
+no		GRAMBANK	Is there grammatical marking of direct evidence (perceived with the senses)?
+no		GRAMBANK	Is there grammatical marking of indirect evidence (hearsay, inference, etc.)?
+no		GRAMBANK	Is there an interrogative verb for content interrogatives (who?, what?, etc.)?
+sì		GRAMBANK	Can the relative clause follow the noun?
+sì		GRAMBANK	Can the relative clause precede the noun?
+sì		GRAMBANK	Are there internally-headed relative clauses?
+sì		GRAMBANK	Are there correlative relative clauses?
+sì		GRAMBANK	Are there non-adjacent relative clauses?
+no		GRAMBANK	Are all person categories neutralized in some voice, tense, aspect, mood and/or negation?
+no		GRAMBANK	Is there a class of patient-labile verbs?
+no		GRAMBANK	Does the verb for 'see' have suppletive verb forms?
+no		GRAMBANK	Does the verb for 'come' have suppletive verb forms?
+no		GRAMBANK	Is there a preposed complementizer in complements of verbs of thinking and/or knowing?
+no		GRAMBANK	Is there a postposed complementizer in complements of verbs of thinking and/or knowing?
+no		GRAMBANK	Can mood be marked by a non-inflecting word ("auxiliary particle")?
+no		GRAMBANK	Can aspect be marked by a non-inflecting word ("auxiliary particle")?
+no		GRAMBANK	Can tense be marked by a non-inflecting word ("auxiliary particle")?
+no		GRAMBANK	Is verb compounding a regular process?
+sì		GRAMBANK	Are nouns reduplicated?
+sì		GRAMBANK	Can predicative possession be expressed with a transitive 'habeo' verb?
+no		GRAMBANK	Can predicative possession be expressed with an S-like possessum and a locative-coded possessor?
+no		GRAMBANK	Can predicative possession be expressed with an S-like possessum and a dative-coded possessor?
+no		GRAMBANK	Can predicative possession be expressed with an S-like possessum and a possessor that is coded like an adnominal possessor?
+no		GRAMBANK	Can predicative possession be expressed with an S-like possessor and a possessum that is coded like a comitative argument?
+no		GRAMBANK	Can augmentative meaning be expressed productively by a shift of gender/noun class?
+sì		GRAMBANK	Is there a productive morphological pattern for deriving an object noun from a verb?
+no		GRAMBANK	Is there a count/mass distinction in interrogative quantifiers?
