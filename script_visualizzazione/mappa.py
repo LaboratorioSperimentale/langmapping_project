@@ -29,7 +29,7 @@ import collections
 
 
 # ! CAMBIARE IN "True" SE SI VUOLE FILTRARE I PARAMETRI PER TENERE SOLO QUELLI NEL FILE PARAMETRI_ANNOTATI
-_FILTRO_PARAMETRI = False
+# _FILTRO_PARAMETRI = False
 _FILTRO_PARAMETRI = True
 
 # STEP1: leggere parametri dal file con annotazioni
@@ -39,7 +39,6 @@ parameters = {}
 for line in reader:
 	parameters[line["Parametro"]] = line["Classe"]
 	classi[line["Classe"]] += 1
-
 
 print ("TOTALE PARAMETRI ANNOTATI: ", len(parameters))
 
@@ -63,7 +62,6 @@ for line in reader:
 					if filtered_line[param] != "_":
 						filtered_line["valued_params"] += 1
 
-
 		filtered_line["coverage"] = filtered_line["valued_params"] / len(parameters)
 
 		line = filtered_line
@@ -80,12 +78,22 @@ languages = {x:y for x, y in languages.items() if y["coverage"] > 0}
 
 print("### Lingue totali: ", len(languages))
 
+for glottocode in languages:
+	print(len(languages[glottocode]))
+	input()
+
 # DISTRIBUZIONE DI COVERAGE
 dist_discrete = [x["valued_params"] for _, x in languages.items()]
 dist_continuous = [x["coverage"] for _, x in languages.items()]
+
 plot = sns.ecdfplot(dist_continuous)
 plot.set_title("Distribuzione di copertura dei parametri")
 plot.figure.savefig("plots parametri/parametri.png", dpi=300)
+plt.close(plot.figure)
+
+plot = sns.histplot(dist_discrete)
+plot.set_title("Distribuzione di copertura dei parametri - istogramma")
+plot.figure.savefig("plots parametri/parametri_istogramma.png", dpi=300)
 plt.close(plot.figure)
 
 #prendiamo 33esimo e 66esimo percentile per creare i  bin
