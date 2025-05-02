@@ -33,7 +33,7 @@ import collections
 _FILTRO_PARAMETRI = True
 
 # STEP1: leggere parametri dal file con annotazioni
-reader = csv.DictReader(open('csvs/parametri_annotati.csv', 'r'), delimiter="\t", quotechar='"')
+reader = csv.DictReader(open('csvs/parametri_annotati_completo.csv', 'r'), delimiter="\t", quotechar='"')
 classi = collections.defaultdict(int)
 parameters = {}
 for line in reader:
